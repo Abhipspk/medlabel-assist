@@ -16,8 +16,10 @@ SYSTEM = (
     "You answer questions about prescription drug labels. "
     "Use ONLY the numbered excerpts provided. Do not use outside knowledge. "
     "Cite every statement with its excerpt number like [1]. "
+    "Preserve qualifiers exactly: words like 'unless', 'only if', 'initiate', numbers and thresholds. "
+    "If several excerpts are relevant, cover each distinct point separately. "
     f"If the excerpts do not contain the answer, reply exactly: {NO_EVIDENCE}. "
-    "Keep the answer under 120 words."
+    "Keep the answer under 150 words."
 )
 
 
@@ -33,6 +35,27 @@ def dedupe(hits, limit=4):
         else:
             best[key] = {**h, "n_labels": 1}
     return list(best.values())[:limit]
+
+def select_evidence(hits, routed, limit=4):
+    """Guarantee the best chunk from each routed section (in priority order),
+    then fill remaining slots by score."""
+    unique = dedupe(hits, limit=len(hits))
+    chosen = []
+
+    def taken():
+        return {c["chunk_id"] for c in chosen}
+
+    for sec in routed or []:
+        for h in unique:
+            if h["section"] == sec and h["chunk_id"] not in taken():
+                chosen.append(h)
+                break
+    for h in unique:
+        if len(chosen) >= limit:
+            break
+        if h["chunk_id"] not in taken():
+            chosen.append(h)
+    return chosen[:limit]
 
 
 def build_context(evidence):
@@ -78,7 +101,7 @@ def answer_question(retriever, question, sections=None, route=True):
                 "top_score": top, "routed": routed, "evidence": [], "cited": [],
                 "uncited": False, "seconds": time.time() - start}
 
-    evidence = dedupe(hits)
+    evidence = select_evidence(hits, routed)
     text = call_llm(question, build_context(evidence))
     cited = sorted({int(n) for n in re.findall(r"\[(\d+)\]", text)
                     if 1 <= int(n) <= len(evidence)})
@@ -95,6 +118,7 @@ if __name__ == "__main__":
     ap.add_argument("question")
     ap.add_argument("--sections", default=None, help="comma-separated section names")
     ap.add_argument("--no-route", action="store_true")
+    ap.add_argument("--show-evidence", action="store_true")
     args = ap.parse_args()
     secs = args.sections.split(",") if args.sections else None
 
@@ -111,3 +135,7 @@ if __name__ == "__main__":
         h = out["evidence"][n - 1]
         print(f"  [{n}] {h['generic_name'][:30]} | {h['section']} | {h['manufacturer'][:25]} "
               f"| seen in {h['n_labels']} label(s)")
+        if args.show_evidence:
+            print("\n--- EVERYTHING THE MODEL SAW ---")
+            for n, h in enumerate(out["evidence"], 1):
+                print(f"\n[{n}] {h['section']} | score={h['score']:.2f}\n{h['text'][:500]}")

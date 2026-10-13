@@ -14,3 +14,4 @@
 14. LLM settings: temperature 0, num_ctx 4096, max 4 excerpts of ~1000 chars.
 15. Failure found: "Who should not take X?" retrieved dosage text (cited but off-topic). Cause: question never says "contraindication".
 16. Fix: rule-based router maps question intent to section filters, with fallback to all sections if routed search finds nothing good. Chosen for transparency, auditability and zero latency; its limit is paraphrases it has no rule for, which the evaluation set will measure.
+17. Routing alone was not enough: the 3B model cited one warnings excerpt and dropped a qualifier. Added coverage-aware evidence selection (one slot per routed section), a prompt that preserves qualifiers, and --show-evidence for debugging.
