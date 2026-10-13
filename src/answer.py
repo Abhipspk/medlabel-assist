@@ -40,21 +40,24 @@ def build_context(evidence):
         blocks.append(f"[{n}] {h['generic_name']} | {h['section']} | {h['manufacturer']}\n{h['text']}")
     return "\n\n".join(blocks)
 
-
 def call_llm(question, context):
-    resp = requests.post(
-        OLLAMA_URL,
-        json={
-            "model": LLM,
-            "stream": False,
-            "options": {"temperature": 0, "num_ctx": 4096},
-            "messages": [
-                {"role": "system", "content": SYSTEM},
-                {"role": "user", "content": f"Excerpts:\n{context}\n\nQuestion: {question}"},
-            ],
-        },
-        timeout=600,
-    )
+    try:
+        resp = requests.post(
+            OLLAMA_URL,
+            json={
+                "model": LLM,
+                "stream": False,
+                "options": {"temperature": 0, "num_ctx": 4096},
+                "messages": [
+                    {"role": "system", "content": SYSTEM},
+                    {"role": "user", "content": f"Excerpts:\n{context}\n\nQuestion: {question}"},
+                ],
+            },
+            timeout=600,
+        )
+    except requests.exceptions.ConnectionError:
+        raise SystemExit("Cannot reach Ollama at localhost:11434. "
+                         "Start the Ollama app (or run 'ollama serve') and try again.")
     resp.raise_for_status()
     return resp.json()["message"]["content"].strip()
 
@@ -87,8 +90,10 @@ if __name__ == "__main__":
     args = ap.parse_args()
 
     r = Retriever()
-    out = answer_question(r, args.question, args.section)
-    r.close()
+    try:
+        out = answer_question(r, args.question, args.section)
+    finally:
+        r.close()
 
     print("\nANSWER:", out["answer"])
     print(f"\nabstained={out['abstained']} ({out['reason']}) | top_score={out['top_score']} "
