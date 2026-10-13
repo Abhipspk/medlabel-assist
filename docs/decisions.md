@@ -9,3 +9,6 @@
 9. Hybrid retrieval: dense + BM25 merged with reciprocal rank fusion (RRF).
 10. Reranker: cross-encoder MiniLM-L-6 on top-20 fused candidates (fast on CPU). bge-reranker-base is the quality upgrade if latency allows.
 11. Section filter applied in both dense (Qdrant filter) and BM25 (score mask) so routing is consistent.
+12. Dedupe: same drug + section + position across manufacturers collapses to one evidence item, with a count of agreeing labels.
+13. Abstention: (a) retrieval-score gate, (b) model instructed to reply NOT ENOUGH EVIDENCE, (c) post-check flags answers with no valid citation.
+14. LLM settings: temperature 0, num_ctx 4096, max 4 excerpts of ~1000 chars.
