@@ -7,3 +7,5 @@
 7. If chunking or N_LABELS changes, delete data/embeddings/ so vectors match chunks.
 8. Vector store changed from pgvector to Qdrant (local mode): pgvector on Windows needs Docker, which comes later. Qdrant also supports payload filters for access control.
 9. Hybrid retrieval: dense + BM25 merged with reciprocal rank fusion (RRF).
+10. Reranker: cross-encoder MiniLM-L-6 on top-20 fused candidates (fast on CPU). bge-reranker-base is the quality upgrade if latency allows.
+11. Section filter applied in both dense (Qdrant filter) and BM25 (score mask) so routing is consistent.
