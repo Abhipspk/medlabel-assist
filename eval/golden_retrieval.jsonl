@@ -1,0 +1,72 @@
+{"drug": "oxycodone", "intent": "contraindications", "question": "Who should not take oxycodone?", "expected": ["contraindications"]}
+{"drug": "oxycodone", "intent": "interactions", "question": "What other drugs interact with oxycodone?", "expected": ["drug_interactions"]}
+{"drug": "oxycodone", "intent": "dosage", "question": "What is the recommended dose of oxycodone?", "expected": ["dosage_and_administration"]}
+{"drug": "oxycodone", "intent": "side_effects", "question": "What are the common side effects of oxycodone?", "expected": ["adverse_reactions"]}
+{"drug": "oxycodone", "intent": "indications", "question": "What is oxycodone used to treat?", "expected": ["indications_and_usage"]}
+{"drug": "oxycodone", "intent": "overdose", "question": "What happens if someone takes too much oxycodone?", "expected": ["overdosage"]}
+{"drug": "telmisartan", "intent": "contraindications", "question": "Who should not take telmisartan?", "expected": ["contraindications"]}
+{"drug": "telmisartan", "intent": "interactions", "question": "What other drugs interact with telmisartan?", "expected": ["drug_interactions"]}
+{"drug": "telmisartan", "intent": "dosage", "question": "What is the recommended dose of telmisartan?", "expected": ["dosage_and_administration"]}
+{"drug": "telmisartan", "intent": "side_effects", "question": "What are the common side effects of telmisartan?", "expected": ["adverse_reactions"]}
+{"drug": "telmisartan", "intent": "indications", "question": "What is telmisartan used to treat?", "expected": ["indications_and_usage"]}
+{"drug": "telmisartan", "intent": "overdose", "question": "What happens if someone takes too much telmisartan?", "expected": ["overdosage"]}
+{"drug": "phenylephrine", "intent": "contraindications", "question": "Who should not take phenylephrine?", "expected": ["contraindications"]}
+{"drug": "phenylephrine", "intent": "interactions", "question": "What other drugs interact with phenylephrine?", "expected": ["drug_interactions"]}
+{"drug": "phenylephrine", "intent": "dosage", "question": "What is the recommended dose of phenylephrine?", "expected": ["dosage_and_administration"]}
+{"drug": "phenylephrine", "intent": "side_effects", "question": "What are the common side effects of phenylephrine?", "expected": ["adverse_reactions"]}
+{"drug": "phenylephrine", "intent": "indications", "question": "What is phenylephrine used to treat?", "expected": ["indications_and_usage"]}
+{"drug": "phenylephrine", "intent": "overdose", "question": "What happens if someone takes too much phenylephrine?", "expected": ["overdosage"]}
+{"drug": "ropinirole", "intent": "contraindications", "question": "Who should not take ropinirole?", "expected": ["contraindications"]}
+{"drug": "ropinirole", "intent": "interactions", "question": "What other drugs interact with ropinirole?", "expected": ["drug_interactions"]}
+{"drug": "ropinirole", "intent": "dosage", "question": "What is the recommended dose of ropinirole?", "expected": ["dosage_and_administration"]}
+{"drug": "ropinirole", "intent": "side_effects", "question": "What are the common side effects of ropinirole?", "expected": ["adverse_reactions"]}
+{"drug": "ropinirole", "intent": "indications", "question": "What is ropinirole used to treat?", "expected": ["indications_and_usage"]}
+{"drug": "ropinirole", "intent": "overdose", "question": "What happens if someone takes too much ropinirole?", "expected": ["overdosage"]}
+{"drug": "toremifene", "intent": "contraindications", "question": "Who should not take toremifene?", "expected": ["contraindications"]}
+{"drug": "toremifene", "intent": "interactions", "question": "What other drugs interact with toremifene?", "expected": ["drug_interactions"]}
+{"drug": "toremifene", "intent": "dosage", "question": "What is the recommended dose of toremifene?", "expected": ["dosage_and_administration"]}
+{"drug": "toremifene", "intent": "side_effects", "question": "What are the common side effects of toremifene?", "expected": ["adverse_reactions"]}
+{"drug": "toremifene", "intent": "indications", "question": "What is toremifene used to treat?", "expected": ["indications_and_usage"]}
+{"drug": "toremifene", "intent": "overdose", "question": "What happens if someone takes too much toremifene?", "expected": ["overdosage"]}
+{"drug": "doxepin", "intent": "contraindications", "question": "Who should not take doxepin?", "expected": ["contraindications"]}
+{"drug": "doxepin", "intent": "interactions", "question": "What other drugs interact with doxepin?", "expected": ["drug_interactions"]}
+{"drug": "doxepin", "intent": "dosage", "question": "What is the recommended dose of doxepin?", "expected": ["dosage_and_administration"]}
+{"drug": "doxepin", "intent": "side_effects", "question": "What are the common side effects of doxepin?", "expected": ["adverse_reactions"]}
+{"drug": "doxepin", "intent": "indications", "question": "What is doxepin used to treat?", "expected": ["indications_and_usage"]}
+{"drug": "doxepin", "intent": "overdose", "question": "What happens if someone takes too much doxepin?", "expected": ["overdosage"]}
+{"drug": "doxazosin", "intent": "contraindications", "question": "Who should not take doxazosin?", "expected": ["contraindications"]}
+{"drug": "doxazosin", "intent": "interactions", "question": "What other drugs interact with doxazosin?", "expected": ["drug_interactions"]}
+{"drug": "doxazosin", "intent": "dosage", "question": "What is the recommended dose of doxazosin?", "expected": ["dosage_and_administration"]}
+{"drug": "doxazosin", "intent": "side_effects", "question": "What are the common side effects of doxazosin?", "expected": ["adverse_reactions"]}
+{"drug": "doxazosin", "intent": "indications", "question": "What is doxazosin used to treat?", "expected": ["indications_and_usage"]}
+{"drug": "doxazosin", "intent": "overdose", "question": "What happens if someone takes too much doxazosin?", "expected": ["overdosage"]}
+{"drug": "rosuvastatin", "intent": "contraindications", "question": "Who should not take rosuvastatin?", "expected": ["contraindications"]}
+{"drug": "rosuvastatin", "intent": "interactions", "question": "What other drugs interact with rosuvastatin?", "expected": ["drug_interactions"]}
+{"drug": "rosuvastatin", "intent": "dosage", "question": "What is the recommended dose of rosuvastatin?", "expected": ["dosage_and_administration"]}
+{"drug": "rosuvastatin", "intent": "side_effects", "question": "What are the common side effects of rosuvastatin?", "expected": ["adverse_reactions"]}
+{"drug": "rosuvastatin", "intent": "indications", "question": "What is rosuvastatin used to treat?", "expected": ["indications_and_usage"]}
+{"drug": "rosuvastatin", "intent": "overdose", "question": "What happens if someone takes too much rosuvastatin?", "expected": ["overdosage"]}
+{"drug": "polystyrene", "intent": "contraindications", "question": "Who should not take polystyrene?", "expected": ["contraindications"]}
+{"drug": "polystyrene", "intent": "interactions", "question": "What other drugs interact with polystyrene?", "expected": ["drug_interactions"]}
+{"drug": "polystyrene", "intent": "dosage", "question": "What is the recommended dose of polystyrene?", "expected": ["dosage_and_administration"]}
+{"drug": "polystyrene", "intent": "side_effects", "question": "What are the common side effects of polystyrene?", "expected": ["adverse_reactions"]}
+{"drug": "polystyrene", "intent": "indications", "question": "What is polystyrene used to treat?", "expected": ["indications_and_usage"]}
+{"drug": "polystyrene", "intent": "overdose", "question": "What happens if someone takes too much polystyrene?", "expected": ["overdosage"]}
+{"drug": "vasopressin", "intent": "contraindications", "question": "Who should not take vasopressin?", "expected": ["contraindications"]}
+{"drug": "vasopressin", "intent": "interactions", "question": "What other drugs interact with vasopressin?", "expected": ["drug_interactions"]}
+{"drug": "vasopressin", "intent": "dosage", "question": "What is the recommended dose of vasopressin?", "expected": ["dosage_and_administration"]}
+{"drug": "vasopressin", "intent": "side_effects", "question": "What are the common side effects of vasopressin?", "expected": ["adverse_reactions"]}
+{"drug": "vasopressin", "intent": "indications", "question": "What is vasopressin used to treat?", "expected": ["indications_and_usage"]}
+{"drug": "vasopressin", "intent": "overdose", "question": "What happens if someone takes too much vasopressin?", "expected": ["overdosage"]}
+{"drug": "valacyclovir", "intent": "contraindications", "question": "Who should not take valacyclovir?", "expected": ["contraindications"]}
+{"drug": "valacyclovir", "intent": "interactions", "question": "What other drugs interact with valacyclovir?", "expected": ["drug_interactions"]}
+{"drug": "valacyclovir", "intent": "dosage", "question": "What is the recommended dose of valacyclovir?", "expected": ["dosage_and_administration"]}
+{"drug": "valacyclovir", "intent": "side_effects", "question": "What are the common side effects of valacyclovir?", "expected": ["adverse_reactions"]}
+{"drug": "valacyclovir", "intent": "indications", "question": "What is valacyclovir used to treat?", "expected": ["indications_and_usage"]}
+{"drug": "valacyclovir", "intent": "overdose", "question": "What happens if someone takes too much valacyclovir?", "expected": ["overdosage"]}
+{"drug": "cefuroxime", "intent": "contraindications", "question": "Who should not take cefuroxime?", "expected": ["contraindications"]}
+{"drug": "cefuroxime", "intent": "interactions", "question": "What other drugs interact with cefuroxime?", "expected": ["drug_interactions"]}
+{"drug": "cefuroxime", "intent": "dosage", "question": "What is the recommended dose of cefuroxime?", "expected": ["dosage_and_administration"]}
+{"drug": "cefuroxime", "intent": "side_effects", "question": "What are the common side effects of cefuroxime?", "expected": ["adverse_reactions"]}
+{"drug": "cefuroxime", "intent": "indications", "question": "What is cefuroxime used to treat?", "expected": ["indications_and_usage"]}
+{"drug": "cefuroxime", "intent": "overdose", "question": "What happens if someone takes too much cefuroxime?", "expected": ["overdosage"]}

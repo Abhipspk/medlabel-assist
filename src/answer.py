@@ -90,9 +90,10 @@ def call_llm(question, context):
 def answer_question(retriever, question, sections=None, route=True):
     start = time.time()
     routed = sections or (route_sections(question) if route else None)
-    hits = retriever.search(question, top_k=8, sections=routed)
+    drug = retriever.detect_drug(question)
+    hits = retriever.search(question, top_k=8, sections=routed, drug=drug)
     if routed and (not hits or hits[0]["score"] < ABSTAIN_BELOW):
-        hits = retriever.search(question, top_k=8)   # fall back to all sections
+        hits = retriever.search(question, top_k=8, drug=drug)   # fall back to all sections
         routed = None
     top = hits[0]["score"] if hits else None
 

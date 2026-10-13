@@ -1,6 +1,7 @@
 import argparse
 import json
 import re
+from collections import defaultdict
 
 import numpy as np
 from qdrant_client import QdrantClient, models
@@ -10,10 +11,20 @@ from sentence_transformers import CrossEncoder, SentenceTransformer
 EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 RERANK_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 PREFIX = "Represent this sentence for searching relevant passages: "
+SKIP_WORDS = {"sodium", "potassium", "calcium", "magnesium", "and", "the",
+              "extended", "release", "delayed", "tablet", "tablets"}
 
 
 def tok(text):
     return re.findall(r"[a-z0-9]+", text.lower())
+
+
+def drug_key(generic_name):
+    """First meaningful word of the generic name, e.g. 'METFORMIN HYDROCHLORIDE' -> 'metformin'."""
+    for w in re.findall(r"[a-z]+", generic_name.lower()):
+        if w not in SKIP_WORDS:
+            return w
+    return ""
 
 
 def rrf(rank_lists, k=60):
@@ -33,28 +44,46 @@ class Retriever:
         self.embedder = SentenceTransformer(EMBED_MODEL)
         self.reranker = CrossEncoder(RERANK_MODEL)
         self.client = QdrantClient(path=qdrant_path)
+        self.drugs = defaultdict(set)          # drug key -> exact generic names
+        for c in self.chunks:
+            self.drugs[drug_key(c["generic_name"])].add(c["generic_name"])
+        self.drugs.pop("", None)
 
-    def _dense(self, query, k, sections):
-        flt = None
+    def detect_drug(self, question):
+        for w in re.findall(r"[a-z]+", question.lower()):
+            if len(w) >= 4 and w in self.drugs:
+                return w
+        return None
+
+    def _dense(self, query, k, sections, drug):
+        must = []
         if sections:
-            flt = models.Filter(must=[models.FieldCondition(
-                key="section", match=models.MatchAny(any=list(sections)))])
+            must.append(models.FieldCondition(
+                key="section", match=models.MatchAny(any=list(sections))))
+        if drug:
+            must.append(models.FieldCondition(
+                key="generic_name", match=models.MatchAny(any=sorted(self.drugs[drug]))))
+        flt = models.Filter(must=must) if must else None
         vec = self.embedder.encode(PREFIX + query, normalize_embeddings=True).tolist()
         hits = self.client.query_points("labels", query=vec, query_filter=flt, limit=k)
         return [h.id for h in hits.points]
 
-    def _sparse(self, query, k, sections):
+    def _sparse(self, query, k, sections, drug):
         scores = self.bm25.get_scores(tok(query))
-        if sections:
-            allowed = set(sections)
-            mask = np.array([c["section"] in allowed for c in self.chunks])
+        if sections or drug:
+            allowed_s = set(sections) if sections else None
+            allowed_d = self.drugs[drug] if drug else None
+            mask = np.array([
+                (allowed_s is None or c["section"] in allowed_s)
+                and (allowed_d is None or c["generic_name"] in allowed_d)
+                for c in self.chunks])
             scores = np.where(mask, scores, -1.0)
         order = np.argsort(scores)[::-1][:k]
         return [int(i) for i in order if scores[i] > 0]
 
-    def search(self, query, top_k=5, candidates=20, sections=None, rerank=True):
-        fused = rrf([self._dense(query, candidates, sections),
-                     self._sparse(query, candidates, sections)])[:candidates]
+    def search(self, query, top_k=5, candidates=20, sections=None, drug=None, rerank=True):
+        fused = rrf([self._dense(query, candidates, sections, drug),
+                     self._sparse(query, candidates, sections, drug)])[:candidates]
         if not fused:
             return []
         if not rerank:
@@ -72,12 +101,13 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("query")
     ap.add_argument("--sections", default=None, help="comma-separated section names")
+    ap.add_argument("--drug", default=None, help="drug key, e.g. metformin")
     ap.add_argument("--no-rerank", action="store_true")
     args = ap.parse_args()
     secs = args.sections.split(",") if args.sections else None
     r = Retriever()
     try:
-        for hit in r.search(args.query, sections=secs, rerank=not args.no_rerank):
+        for hit in r.search(args.query, sections=secs, drug=args.drug, rerank=not args.no_rerank):
             print(f"[{hit['score']}] {hit['generic_name'][:30]} | {hit['manufacturer'][:25]} | "
                   f"{hit['section']}\n    {hit['text'][:160]}")
     finally:

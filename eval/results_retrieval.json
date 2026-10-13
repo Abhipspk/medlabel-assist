@@ -1,0 +1,1450 @@
+{
+ "A hybrid only": [
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.25,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.25,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 0.25,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.25,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  }
+ ],
+ "B + rerank": [
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.25,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.25,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  }
+ ],
+ "C + rerank + routing": [
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25
+  }
+ ],
+ "D + routing + drug filter": [
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0
+  }
+ ]
+}

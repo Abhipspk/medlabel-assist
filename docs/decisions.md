@@ -15,3 +15,6 @@
 15. Failure found: "Who should not take X?" retrieved dosage text (cited but off-topic). Cause: question never says "contraindication".
 16. Fix: rule-based router maps question intent to section filters, with fallback to all sections if routed search finds nothing good. Chosen for transparency, auditability and zero latency; its limit is paraphrases it has no rule for, which the evaluation set will measure.
 17. Routing alone was not enough: the 3B model cited one warnings excerpt and dropped a qualifier. Added coverage-aware evidence selection (one slot per routed section), a prompt that preserves qualifiers, and --show-evidence for debugging.
+18. Anecdotal debugging replaced by a retrieval eval: 72 templated questions (12 drugs x 6 intents), strict pass = right drug AND right section in the 4 evidence chunks.
+19. Drug-name filter added (drug key = first meaningful word of generic name). Prevents cross-drug contamination, a safety risk.
+20. Known weakness of this eval: templated questions are easy and match our router's rules, so scores are optimistic. Hand-written paraphrases and unanswerable questions come next.
