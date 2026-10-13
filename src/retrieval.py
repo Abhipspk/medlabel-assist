@@ -34,26 +34,27 @@ class Retriever:
         self.reranker = CrossEncoder(RERANK_MODEL)
         self.client = QdrantClient(path=qdrant_path)
 
-    def _dense(self, query, k, section):
+    def _dense(self, query, k, sections):
         flt = None
-        if section:
+        if sections:
             flt = models.Filter(must=[models.FieldCondition(
-                key="section", match=models.MatchValue(value=section))])
+                key="section", match=models.MatchAny(any=list(sections)))])
         vec = self.embedder.encode(PREFIX + query, normalize_embeddings=True).tolist()
         hits = self.client.query_points("labels", query=vec, query_filter=flt, limit=k)
         return [h.id for h in hits.points]
 
-    def _sparse(self, query, k, section):
+    def _sparse(self, query, k, sections):
         scores = self.bm25.get_scores(tok(query))
-        if section:
-            mask = np.array([c["section"] == section for c in self.chunks])
+        if sections:
+            allowed = set(sections)
+            mask = np.array([c["section"] in allowed for c in self.chunks])
             scores = np.where(mask, scores, -1.0)
         order = np.argsort(scores)[::-1][:k]
         return [int(i) for i in order if scores[i] > 0]
 
-    def search(self, query, top_k=5, candidates=20, section=None, rerank=True):
-        fused = rrf([self._dense(query, candidates, section),
-                     self._sparse(query, candidates, section)])[:candidates]
+    def search(self, query, top_k=5, candidates=20, sections=None, rerank=True):
+        fused = rrf([self._dense(query, candidates, sections),
+                     self._sparse(query, candidates, sections)])[:candidates]
         if not fused:
             return []
         if not rerank:
@@ -70,11 +71,14 @@ class Retriever:
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("query")
-    ap.add_argument("--section", default=None)
+    ap.add_argument("--sections", default=None, help="comma-separated section names")
     ap.add_argument("--no-rerank", action="store_true")
     args = ap.parse_args()
+    secs = args.sections.split(",") if args.sections else None
     r = Retriever()
-    for hit in r.search(args.query, section=args.section, rerank=not args.no_rerank):
-        print(f"[{hit['score']}] {hit['generic_name'][:30]} | {hit['manufacturer'][:25]} | "
-              f"{hit['section']}\n    {hit['text'][:160]}")
-    r.close()
+    try:
+        for hit in r.search(args.query, sections=secs, rerank=not args.no_rerank):
+            print(f"[{hit['score']}] {hit['generic_name'][:30]} | {hit['manufacturer'][:25]} | "
+                  f"{hit['section']}\n    {hit['text'][:160]}")
+    finally:
+        r.close()

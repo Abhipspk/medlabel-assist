@@ -12,3 +12,5 @@
 12. Dedupe: same drug + section + position across manufacturers collapses to one evidence item, with a count of agreeing labels.
 13. Abstention: (a) retrieval-score gate, (b) model instructed to reply NOT ENOUGH EVIDENCE, (c) post-check flags answers with no valid citation.
 14. LLM settings: temperature 0, num_ctx 4096, max 4 excerpts of ~1000 chars.
+15. Failure found: "Who should not take X?" retrieved dosage text (cited but off-topic). Cause: question never says "contraindication".
+16. Fix: rule-based router maps question intent to section filters, with fallback to all sections if routed search finds nothing good. Chosen for transparency, auditability and zero latency; its limit is paraphrases it has no rule for, which the evaluation set will measure.
