@@ -5,6 +5,7 @@ import time
 import requests
 
 from retrieval import Retriever
+from routing import route_sections
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
 LLM = "qwen2.5:3b"
@@ -40,6 +41,7 @@ def build_context(evidence):
         blocks.append(f"[{n}] {h['generic_name']} | {h['section']} | {h['manufacturer']}\n{h['text']}")
     return "\n\n".join(blocks)
 
+
 def call_llm(question, context):
     try:
         resp = requests.post(
@@ -62,14 +64,19 @@ def call_llm(question, context):
     return resp.json()["message"]["content"].strip()
 
 
-def answer_question(retriever, question, section=None):
+def answer_question(retriever, question, sections=None, route=True):
     start = time.time()
-    hits = retriever.search(question, top_k=8, section=section)
+    routed = sections or (route_sections(question) if route else None)
+    hits = retriever.search(question, top_k=8, sections=routed)
+    if routed and (not hits or hits[0]["score"] < ABSTAIN_BELOW):
+        hits = retriever.search(question, top_k=8)   # fall back to all sections
+        routed = None
     top = hits[0]["score"] if hits else None
+
     if top is None or top < ABSTAIN_BELOW:
         return {"answer": NO_EVIDENCE, "abstained": True, "reason": "low retrieval score",
-                "top_score": top, "evidence": [], "cited": [], "uncited": False,
-                "seconds": time.time() - start}
+                "top_score": top, "routed": routed, "evidence": [], "cited": [],
+                "uncited": False, "seconds": time.time() - start}
 
     evidence = dedupe(hits)
     text = call_llm(question, build_context(evidence))
@@ -78,7 +85,7 @@ def answer_question(retriever, question, section=None):
     abstained = NO_EVIDENCE in text
     return {"answer": text, "abstained": abstained,
             "reason": "model abstained" if abstained else "answered",
-            "top_score": top, "evidence": evidence, "cited": cited,
+            "top_score": top, "routed": routed, "evidence": evidence, "cited": cited,
             "uncited": (not abstained and not cited),
             "seconds": time.time() - start}
 
@@ -86,18 +93,20 @@ def answer_question(retriever, question, section=None):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("question")
-    ap.add_argument("--section", default=None)
+    ap.add_argument("--sections", default=None, help="comma-separated section names")
+    ap.add_argument("--no-route", action="store_true")
     args = ap.parse_args()
+    secs = args.sections.split(",") if args.sections else None
 
     r = Retriever()
     try:
-        out = answer_question(r, args.question, args.section)
+        out = answer_question(r, args.question, secs, route=not args.no_route)
     finally:
         r.close()
 
     print("\nANSWER:", out["answer"])
-    print(f"\nabstained={out['abstained']} ({out['reason']}) | top_score={out['top_score']} "
-          f"| uncited={out['uncited']} | {out['seconds']:.0f}s")
+    print(f"\nrouted={out['routed']} | abstained={out['abstained']} ({out['reason']}) "
+          f"| top_score={out['top_score']} | uncited={out['uncited']} | {out['seconds']:.0f}s")
     for n in out["cited"]:
         h = out["evidence"][n - 1]
         print(f"  [{n}] {h['generic_name'][:30]} | {h['section']} | {h['manufacturer'][:25]} "
