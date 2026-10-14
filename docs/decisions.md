@@ -31,3 +31,5 @@
 31. Gate 1: no recognized drug name means refuse (held-out: real drugs detected 1.00, invented 0.00). Brand-name words map to the generic key.
 32. Gate 2: ABSTAIN_BELOW = 1.0, chosen safety-first from held-out calibration: keeps ~90% of answerable, blocks ~89-92% of real-drug out-of-scope. A wrong answer costs more than a refusal.
 33. Known gaps: contraindications hit@4 only 0.50 on paraphrases (likely reranker domain mismatch; next experiment: a stronger reranker). ~10% of out-of-scope questions pass the score gate and must be caught by the model's refusal and the citation check, to be measured end to end.
+34. End-to-end eval uses deterministic checks (citation present, cited right drug+section, numbers in answer all appear in the cited evidence, word overlap) plus a markdown file of all answers for human review. A 3B model is not a trustworthy judge of itself.
+35. Refusal is tested on real-drug out-of-scope questions (price, comparison, history) and on invented drugs.
