@@ -1,6 +1,7 @@
 import argparse
 import re
 import time
+import os
 
 import requests
 
@@ -8,13 +9,13 @@ from retrieval import Retriever
 from routing import route_sections
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
-LLM = "qwen2.5:3b"
+LLM = os.environ.get("MEDLABEL_LLM", "qwen2.5:3b")
 ABSTAIN_BELOW = 1.0          # calibrated on the held-out set (see docs/decisions.md)
 NO_EVIDENCE = "NOT ENOUGH EVIDENCE"
 NO_DRUG = ("I could not identify a drug from the labels in this dataset. "
            "Please name the drug your question is about.")
 
-SYSTEM = (
+SYSTEM_V1 = (
     "You answer questions about prescription drug labels. "
     "Use ONLY the numbered excerpts provided. Do not use outside knowledge. "
     "Cite every statement with its excerpt number like [1]. "
@@ -23,6 +24,19 @@ SYSTEM = (
     f"If the excerpts do not contain the answer, reply exactly: {NO_EVIDENCE}. "
     "Keep the answer under 150 words."
 )
+
+SYSTEM_V2 = (
+    "You answer questions about prescription drug labels. "
+    "Use ONLY the numbered excerpts provided. Do not use outside knowledge. "
+    "Cite every statement with its excerpt number like [1]. "
+    "Preserve qualifiers exactly: words like 'unless', 'only if', 'initiate', numbers and thresholds. "
+    "If several excerpts are relevant, cover each distinct point separately. "
+    "If the excerpts answer only part of the question, give the part they support "
+    "and say what is not covered. "
+    f"Reply exactly {NO_EVIDENCE} only when none of the excerpts is relevant to the question. "
+    "Keep the answer under 150 words."
+)
+SYSTEM = SYSTEM_V2 if os.environ.get("MEDLABEL_PROMPT") == "v2" else SYSTEM_V1
 
 
 def dedupe(hits, limit=4):

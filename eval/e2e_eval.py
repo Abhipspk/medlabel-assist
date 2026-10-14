@@ -1,3 +1,4 @@
+import os
 import json
 import random
 import re
@@ -28,9 +29,10 @@ def overlap(answer, evidence_text):
     ev = set(words(evidence_text))
     return sum(w in ev for w in aw) / len(aw) if aw else 1.0
 
-
 def numbers(text):
-    return set(re.findall(r"\d+(?:\.\d+)?", strip_cites(text)))
+    t = strip_cites(text)
+    t = re.sub(r"(?m)^\s*\d+[.)]\s+", " ", t)      # ignore numbered-list markers
+    return set(re.findall(r"\d+(?:\.\d+)?", t))
 
 
 rows = [json.loads(line)
@@ -66,6 +68,7 @@ try:
             "numbers_ok": numbers(out["answer"]) <= numbers(pool_text),
             "overlap": overlap(out["answer"], pool_text),
             "answer": out["answer"],
+            "evidence_text": pool_text,
         }
         results.append(res)
         md.append(f"## {i}. [{x['kind']}/{x['intent']}] {x['question']}\n"
@@ -74,8 +77,10 @@ try:
                   f"{out['answer']}\n")
 finally:
     r.close()
-    Path("eval/e2e_answers.md").write_text("\n".join(md), encoding="utf-8")
-    Path("eval/results_e2e.json").write_text(json.dumps(results, indent=1), encoding="utf-8")
+    tag = re.sub(r"[^a-z0-9]+", "_", f"{os.environ.get('MEDLABEL_LLM', 'qwen2.5:3b')}_"
+                 f"{os.environ.get('MEDLABEL_PROMPT', 'v1')}")
+    Path(f"eval/e2e_answers_{tag}.md").write_text("\n".join(md), encoding="utf-8")
+    Path(f"eval/results_e2e_{tag}.json").write_text(json.dumps(results, indent=1), encoding="utf-8")
 
 
 def rate(items, key):

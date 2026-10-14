@@ -33,3 +33,9 @@
 33. Known gaps: contraindications hit@4 only 0.50 on paraphrases (likely reranker domain mismatch; next experiment: a stronger reranker). ~10% of out-of-scope questions pass the score gate and must be caught by the model's refusal and the citation check, to be measured end to end.
 34. End-to-end eval uses deterministic checks (citation present, cited right drug+section, numbers in answer all appear in the cited evidence, word overlap) plus a markdown file of all answers for human review. A 3B model is not a trustworthy judge of itself.
 35. Refusal is tested on real-drug out-of-scope questions (price, comparison, history) and on invented drugs.
+36. E2E baseline (3B, prompt v1): answered 0.78, right drug+section cited 0.71, wrong-drug 0.00, numbers faithful 1.00, out-of-scope refused 12/12, invented refused 4/4.
+37. Over-refusal by the model suspected from the strict "reply exactly NOT ENOUGH EVIDENCE" instruction. Experiments change one variable each: A = partial-answer prompt (3B), B = 7B model with the original prompt.
+38. One refusal came from the score gate ("poisoned" vs label word "overdosage"). Candidate fix: query expansion with medical synonyms.
+39. 7B vs 3B (prompt v1): same answer rate (0.78), all answers cited, but 2x slower (33s vs 17s) and no gain in right-section citations. Same questions fail under both models, so the bottleneck is evidence or prompt, not model size. 3B kept for dev/CI/demo.
+40. Checker bug: numbered-list markers were counted as "numbers not found in evidence". Fixed; evidence text now saved for re-scoring.
+41. Partial-answer prompt (v2) compared with v1 on the same 34 questions under the fixed checker.
