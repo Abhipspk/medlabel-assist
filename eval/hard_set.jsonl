@@ -1,0 +1,118 @@
+{"kind": "answerable", "drug": "irbesartan", "intent": "contraindications", "question": "In which patients is irbesartan unsafe?", "expected": ["contraindications"]}
+{"kind": "answerable", "drug": "irbesartan", "intent": "interactions", "question": "Can irbesartan be used safely alongside other medicines?", "expected": ["drug_interactions"]}
+{"kind": "answerable", "drug": "irbesartan", "intent": "dosage", "question": "How is the daily amount of irbesartan usually decided?", "expected": ["dosage_and_administration"]}
+{"kind": "answerable", "drug": "irbesartan", "intent": "side_effects", "question": "What unwanted effects might irbesartan cause?", "expected": ["adverse_reactions"]}
+{"kind": "answerable", "drug": "irbesartan", "intent": "indications", "question": "Why would a doctor give a patient irbesartan?", "expected": ["indications_and_usage"]}
+{"kind": "answerable", "drug": "irbesartan", "intent": "overdose", "question": "What should be done if someone is poisoned by irbesartan?", "expected": ["overdosage"]}
+{"kind": "out_of_scope", "drug": "irbesartan", "intent": "none", "question": "What is the price of irbesartan at pharmacies in Hyderabad?", "expected": []}
+{"kind": "out_of_scope", "drug": "irbesartan", "intent": "none", "question": "Is irbesartan better than ibuprofen?", "expected": []}
+{"kind": "out_of_scope", "drug": "irbesartan", "intent": "none", "question": "Which company first invented irbesartan?", "expected": []}
+{"kind": "answerable", "drug": "carvedilol", "intent": "contraindications", "question": "In which patients is carvedilol unsafe?", "expected": ["contraindications"]}
+{"kind": "answerable", "drug": "carvedilol", "intent": "interactions", "question": "Can carvedilol be used safely alongside other medicines?", "expected": ["drug_interactions"]}
+{"kind": "answerable", "drug": "carvedilol", "intent": "dosage", "question": "How is the daily amount of carvedilol usually decided?", "expected": ["dosage_and_administration"]}
+{"kind": "answerable", "drug": "carvedilol", "intent": "side_effects", "question": "What unwanted effects might carvedilol cause?", "expected": ["adverse_reactions"]}
+{"kind": "answerable", "drug": "carvedilol", "intent": "indications", "question": "Why would a doctor give a patient carvedilol?", "expected": ["indications_and_usage"]}
+{"kind": "answerable", "drug": "carvedilol", "intent": "overdose", "question": "What should be done if someone is poisoned by carvedilol?", "expected": ["overdosage"]}
+{"kind": "out_of_scope", "drug": "carvedilol", "intent": "none", "question": "What is the price of carvedilol at pharmacies in Hyderabad?", "expected": []}
+{"kind": "out_of_scope", "drug": "carvedilol", "intent": "none", "question": "Is carvedilol better than ibuprofen?", "expected": []}
+{"kind": "out_of_scope", "drug": "carvedilol", "intent": "none", "question": "Which company first invented carvedilol?", "expected": []}
+{"kind": "answerable", "drug": "alprazolam", "intent": "contraindications", "question": "In which patients is alprazolam unsafe?", "expected": ["contraindications"]}
+{"kind": "answerable", "drug": "alprazolam", "intent": "interactions", "question": "Can alprazolam be used safely alongside other medicines?", "expected": ["drug_interactions"]}
+{"kind": "answerable", "drug": "alprazolam", "intent": "dosage", "question": "How is the daily amount of alprazolam usually decided?", "expected": ["dosage_and_administration"]}
+{"kind": "answerable", "drug": "alprazolam", "intent": "side_effects", "question": "What unwanted effects might alprazolam cause?", "expected": ["adverse_reactions"]}
+{"kind": "answerable", "drug": "alprazolam", "intent": "indications", "question": "Why would a doctor give a patient alprazolam?", "expected": ["indications_and_usage"]}
+{"kind": "answerable", "drug": "alprazolam", "intent": "overdose", "question": "What should be done if someone is poisoned by alprazolam?", "expected": ["overdosage"]}
+{"kind": "out_of_scope", "drug": "alprazolam", "intent": "none", "question": "What is the price of alprazolam at pharmacies in Hyderabad?", "expected": []}
+{"kind": "out_of_scope", "drug": "alprazolam", "intent": "none", "question": "Is alprazolam better than ibuprofen?", "expected": []}
+{"kind": "out_of_scope", "drug": "alprazolam", "intent": "none", "question": "Which company first invented alprazolam?", "expected": []}
+{"kind": "answerable", "drug": "venlafaxine", "intent": "contraindications", "question": "In which patients is venlafaxine unsafe?", "expected": ["contraindications"]}
+{"kind": "answerable", "drug": "venlafaxine", "intent": "interactions", "question": "Can venlafaxine be used safely alongside other medicines?", "expected": ["drug_interactions"]}
+{"kind": "answerable", "drug": "venlafaxine", "intent": "dosage", "question": "How is the daily amount of venlafaxine usually decided?", "expected": ["dosage_and_administration"]}
+{"kind": "answerable", "drug": "venlafaxine", "intent": "side_effects", "question": "What unwanted effects might venlafaxine cause?", "expected": ["adverse_reactions"]}
+{"kind": "answerable", "drug": "venlafaxine", "intent": "indications", "question": "Why would a doctor give a patient venlafaxine?", "expected": ["indications_and_usage"]}
+{"kind": "answerable", "drug": "venlafaxine", "intent": "overdose", "question": "What should be done if someone is poisoned by venlafaxine?", "expected": ["overdosage"]}
+{"kind": "out_of_scope", "drug": "venlafaxine", "intent": "none", "question": "What is the price of venlafaxine at pharmacies in Hyderabad?", "expected": []}
+{"kind": "out_of_scope", "drug": "venlafaxine", "intent": "none", "question": "Is venlafaxine better than ibuprofen?", "expected": []}
+{"kind": "out_of_scope", "drug": "venlafaxine", "intent": "none", "question": "Which company first invented venlafaxine?", "expected": []}
+{"kind": "answerable", "drug": "latanoprost", "intent": "contraindications", "question": "In which patients is latanoprost unsafe?", "expected": ["contraindications"]}
+{"kind": "answerable", "drug": "latanoprost", "intent": "interactions", "question": "Can latanoprost be used safely alongside other medicines?", "expected": ["drug_interactions"]}
+{"kind": "answerable", "drug": "latanoprost", "intent": "dosage", "question": "How is the daily amount of latanoprost usually decided?", "expected": ["dosage_and_administration"]}
+{"kind": "answerable", "drug": "latanoprost", "intent": "side_effects", "question": "What unwanted effects might latanoprost cause?", "expected": ["adverse_reactions"]}
+{"kind": "answerable", "drug": "latanoprost", "intent": "indications", "question": "Why would a doctor give a patient latanoprost?", "expected": ["indications_and_usage"]}
+{"kind": "answerable", "drug": "latanoprost", "intent": "overdose", "question": "What should be done if someone is poisoned by latanoprost?", "expected": ["overdosage"]}
+{"kind": "out_of_scope", "drug": "latanoprost", "intent": "none", "question": "What is the price of latanoprost at pharmacies in Hyderabad?", "expected": []}
+{"kind": "out_of_scope", "drug": "latanoprost", "intent": "none", "question": "Is latanoprost better than ibuprofen?", "expected": []}
+{"kind": "out_of_scope", "drug": "latanoprost", "intent": "none", "question": "Which company first invented latanoprost?", "expected": []}
+{"kind": "answerable", "drug": "ondansetron", "intent": "contraindications", "question": "In which patients is ondansetron unsafe?", "expected": ["contraindications"]}
+{"kind": "answerable", "drug": "ondansetron", "intent": "interactions", "question": "Can ondansetron be used safely alongside other medicines?", "expected": ["drug_interactions"]}
+{"kind": "answerable", "drug": "ondansetron", "intent": "dosage", "question": "How is the daily amount of ondansetron usually decided?", "expected": ["dosage_and_administration"]}
+{"kind": "answerable", "drug": "ondansetron", "intent": "side_effects", "question": "What unwanted effects might ondansetron cause?", "expected": ["adverse_reactions"]}
+{"kind": "answerable", "drug": "ondansetron", "intent": "indications", "question": "Why would a doctor give a patient ondansetron?", "expected": ["indications_and_usage"]}
+{"kind": "answerable", "drug": "ondansetron", "intent": "overdose", "question": "What should be done if someone is poisoned by ondansetron?", "expected": ["overdosage"]}
+{"kind": "out_of_scope", "drug": "ondansetron", "intent": "none", "question": "What is the price of ondansetron at pharmacies in Hyderabad?", "expected": []}
+{"kind": "out_of_scope", "drug": "ondansetron", "intent": "none", "question": "Is ondansetron better than ibuprofen?", "expected": []}
+{"kind": "out_of_scope", "drug": "ondansetron", "intent": "none", "question": "Which company first invented ondansetron?", "expected": []}
+{"kind": "answerable", "drug": "montelukast", "intent": "contraindications", "question": "In which patients is montelukast unsafe?", "expected": ["contraindications"]}
+{"kind": "answerable", "drug": "montelukast", "intent": "interactions", "question": "Can montelukast be used safely alongside other medicines?", "expected": ["drug_interactions"]}
+{"kind": "answerable", "drug": "montelukast", "intent": "dosage", "question": "How is the daily amount of montelukast usually decided?", "expected": ["dosage_and_administration"]}
+{"kind": "answerable", "drug": "montelukast", "intent": "side_effects", "question": "What unwanted effects might montelukast cause?", "expected": ["adverse_reactions"]}
+{"kind": "answerable", "drug": "montelukast", "intent": "indications", "question": "Why would a doctor give a patient montelukast?", "expected": ["indications_and_usage"]}
+{"kind": "answerable", "drug": "montelukast", "intent": "overdose", "question": "What should be done if someone is poisoned by montelukast?", "expected": ["overdosage"]}
+{"kind": "out_of_scope", "drug": "montelukast", "intent": "none", "question": "What is the price of montelukast at pharmacies in Hyderabad?", "expected": []}
+{"kind": "out_of_scope", "drug": "montelukast", "intent": "none", "question": "Is montelukast better than ibuprofen?", "expected": []}
+{"kind": "out_of_scope", "drug": "montelukast", "intent": "none", "question": "Which company first invented montelukast?", "expected": []}
+{"kind": "answerable", "drug": "terazosin", "intent": "contraindications", "question": "In which patients is terazosin unsafe?", "expected": ["contraindications"]}
+{"kind": "answerable", "drug": "terazosin", "intent": "interactions", "question": "Can terazosin be used safely alongside other medicines?", "expected": ["drug_interactions"]}
+{"kind": "answerable", "drug": "terazosin", "intent": "dosage", "question": "How is the daily amount of terazosin usually decided?", "expected": ["dosage_and_administration"]}
+{"kind": "answerable", "drug": "terazosin", "intent": "side_effects", "question": "What unwanted effects might terazosin cause?", "expected": ["adverse_reactions"]}
+{"kind": "answerable", "drug": "terazosin", "intent": "indications", "question": "Why would a doctor give a patient terazosin?", "expected": ["indications_and_usage"]}
+{"kind": "answerable", "drug": "terazosin", "intent": "overdose", "question": "What should be done if someone is poisoned by terazosin?", "expected": ["overdosage"]}
+{"kind": "out_of_scope", "drug": "terazosin", "intent": "none", "question": "What is the price of terazosin at pharmacies in Hyderabad?", "expected": []}
+{"kind": "out_of_scope", "drug": "terazosin", "intent": "none", "question": "Is terazosin better than ibuprofen?", "expected": []}
+{"kind": "out_of_scope", "drug": "terazosin", "intent": "none", "question": "Which company first invented terazosin?", "expected": []}
+{"kind": "answerable", "drug": "metformin", "intent": "contraindications", "question": "In which patients is metformin unsafe?", "expected": ["contraindications"]}
+{"kind": "answerable", "drug": "metformin", "intent": "interactions", "question": "Can metformin be used safely alongside other medicines?", "expected": ["drug_interactions"]}
+{"kind": "answerable", "drug": "metformin", "intent": "dosage", "question": "How is the daily amount of metformin usually decided?", "expected": ["dosage_and_administration"]}
+{"kind": "answerable", "drug": "metformin", "intent": "side_effects", "question": "What unwanted effects might metformin cause?", "expected": ["adverse_reactions"]}
+{"kind": "answerable", "drug": "metformin", "intent": "indications", "question": "Why would a doctor give a patient metformin?", "expected": ["indications_and_usage"]}
+{"kind": "answerable", "drug": "metformin", "intent": "overdose", "question": "What should be done if someone is poisoned by metformin?", "expected": ["overdosage"]}
+{"kind": "out_of_scope", "drug": "metformin", "intent": "none", "question": "What is the price of metformin at pharmacies in Hyderabad?", "expected": []}
+{"kind": "out_of_scope", "drug": "metformin", "intent": "none", "question": "Is metformin better than ibuprofen?", "expected": []}
+{"kind": "out_of_scope", "drug": "metformin", "intent": "none", "question": "Which company first invented metformin?", "expected": []}
+{"kind": "answerable", "drug": "clindamycin", "intent": "contraindications", "question": "In which patients is clindamycin unsafe?", "expected": ["contraindications"]}
+{"kind": "answerable", "drug": "clindamycin", "intent": "interactions", "question": "Can clindamycin be used safely alongside other medicines?", "expected": ["drug_interactions"]}
+{"kind": "answerable", "drug": "clindamycin", "intent": "dosage", "question": "How is the daily amount of clindamycin usually decided?", "expected": ["dosage_and_administration"]}
+{"kind": "answerable", "drug": "clindamycin", "intent": "side_effects", "question": "What unwanted effects might clindamycin cause?", "expected": ["adverse_reactions"]}
+{"kind": "answerable", "drug": "clindamycin", "intent": "indications", "question": "Why would a doctor give a patient clindamycin?", "expected": ["indications_and_usage"]}
+{"kind": "answerable", "drug": "clindamycin", "intent": "overdose", "question": "What should be done if someone is poisoned by clindamycin?", "expected": ["overdosage"]}
+{"kind": "out_of_scope", "drug": "clindamycin", "intent": "none", "question": "What is the price of clindamycin at pharmacies in Hyderabad?", "expected": []}
+{"kind": "out_of_scope", "drug": "clindamycin", "intent": "none", "question": "Is clindamycin better than ibuprofen?", "expected": []}
+{"kind": "out_of_scope", "drug": "clindamycin", "intent": "none", "question": "Which company first invented clindamycin?", "expected": []}
+{"kind": "answerable", "drug": "ertapenem", "intent": "contraindications", "question": "In which patients is ertapenem unsafe?", "expected": ["contraindications"]}
+{"kind": "answerable", "drug": "ertapenem", "intent": "interactions", "question": "Can ertapenem be used safely alongside other medicines?", "expected": ["drug_interactions"]}
+{"kind": "answerable", "drug": "ertapenem", "intent": "dosage", "question": "How is the daily amount of ertapenem usually decided?", "expected": ["dosage_and_administration"]}
+{"kind": "answerable", "drug": "ertapenem", "intent": "side_effects", "question": "What unwanted effects might ertapenem cause?", "expected": ["adverse_reactions"]}
+{"kind": "answerable", "drug": "ertapenem", "intent": "indications", "question": "Why would a doctor give a patient ertapenem?", "expected": ["indications_and_usage"]}
+{"kind": "answerable", "drug": "ertapenem", "intent": "overdose", "question": "What should be done if someone is poisoned by ertapenem?", "expected": ["overdosage"]}
+{"kind": "out_of_scope", "drug": "ertapenem", "intent": "none", "question": "What is the price of ertapenem at pharmacies in Hyderabad?", "expected": []}
+{"kind": "out_of_scope", "drug": "ertapenem", "intent": "none", "question": "Is ertapenem better than ibuprofen?", "expected": []}
+{"kind": "out_of_scope", "drug": "ertapenem", "intent": "none", "question": "Which company first invented ertapenem?", "expected": []}
+{"kind": "answerable", "drug": "granisetron", "intent": "contraindications", "question": "In which patients is granisetron unsafe?", "expected": ["contraindications"]}
+{"kind": "answerable", "drug": "granisetron", "intent": "interactions", "question": "Can granisetron be used safely alongside other medicines?", "expected": ["drug_interactions"]}
+{"kind": "answerable", "drug": "granisetron", "intent": "dosage", "question": "How is the daily amount of granisetron usually decided?", "expected": ["dosage_and_administration"]}
+{"kind": "answerable", "drug": "granisetron", "intent": "side_effects", "question": "What unwanted effects might granisetron cause?", "expected": ["adverse_reactions"]}
+{"kind": "answerable", "drug": "granisetron", "intent": "indications", "question": "Why would a doctor give a patient granisetron?", "expected": ["indications_and_usage"]}
+{"kind": "answerable", "drug": "granisetron", "intent": "overdose", "question": "What should be done if someone is poisoned by granisetron?", "expected": ["overdosage"]}
+{"kind": "out_of_scope", "drug": "granisetron", "intent": "none", "question": "What is the price of granisetron at pharmacies in Hyderabad?", "expected": []}
+{"kind": "out_of_scope", "drug": "granisetron", "intent": "none", "question": "Is granisetron better than ibuprofen?", "expected": []}
+{"kind": "out_of_scope", "drug": "granisetron", "intent": "none", "question": "Which company first invented granisetron?", "expected": []}
+{"kind": "fictional", "drug": "zorvexin", "intent": "none", "question": "What is zorvexin used for?", "expected": []}
+{"kind": "fictional", "drug": "zorvexin", "intent": "none", "question": "Who should not take zorvexin?", "expected": []}
+{"kind": "fictional", "drug": "plantrilex", "intent": "none", "question": "What is plantrilex used for?", "expected": []}
+{"kind": "fictional", "drug": "plantrilex", "intent": "none", "question": "Who should not take plantrilex?", "expected": []}
+{"kind": "fictional", "drug": "quenomab", "intent": "none", "question": "What is quenomab used for?", "expected": []}
+{"kind": "fictional", "drug": "quenomab", "intent": "none", "question": "Who should not take quenomab?", "expected": []}
+{"kind": "fictional", "drug": "dravelitol", "intent": "none", "question": "What is dravelitol used for?", "expected": []}
+{"kind": "fictional", "drug": "dravelitol", "intent": "none", "question": "Who should not take dravelitol?", "expected": []}
+{"kind": "fictional", "drug": "mirotazine", "intent": "none", "question": "What is mirotazine used for?", "expected": []}
+{"kind": "fictional", "drug": "mirotazine", "intent": "none", "question": "Who should not take mirotazine?", "expected": []}
