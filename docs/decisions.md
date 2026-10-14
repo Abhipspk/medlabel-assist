@@ -21,3 +21,9 @@
 21. Eval findings: routing gave the largest gain (MRR 0.78 -> 0.96) but let other drugs leak in (drug precision 0.69); the drug filter fixed that (1.00).
 22. The MS MARCO reranker hurt the contraindications intent (0.83 -> 0.50): domain mismatch. Candidate fixes: per-section retrieval (config E), a stronger reranker, or a domain-tuned one.
 23. Caveat: 12 questions per intent and templated wording, so scores are optimistic and differences of one question are noise.
+24. Config E scored 1.00 on templated questions, but those match router keywords and were used for tuning, so they are not a fair test.
+25. Held-out hard set: 12 different drugs, paraphrased questions that avoid router keywords, out-of-scope questions about real drugs, and invented drug names.
+26. ABSTAIN_BELOW to be set from measured score separation, not guessed.
+27. Held-out paraphrases scored hit@4 0.69 (vs 1.00 on templates): the rule router never fired. Rules memorize wording; the data says do not extend them.
+28. Candidate fix: section-diverse retrieval (best chunk per section, then top 4 by score), measured against the plain fallback on the same held-out set.
+29. Drug gate proposed: no recognized drug name means refuse. Held-out data: real drugs detected 1.00, invented 0.00.

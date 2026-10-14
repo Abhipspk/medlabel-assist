@@ -13,6 +13,9 @@ RERANK_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 PREFIX = "Represent this sentence for searching relevant passages: "
 SKIP_WORDS = {"sodium", "potassium", "calcium", "magnesium", "and", "the",
               "extended", "release", "delayed", "tablet", "tablets"}
+ALL_SECTIONS = ["contraindications", "boxed_warning", "warnings", "drug_interactions",
+                "adverse_reactions", "dosage_and_administration",
+                "indications_and_usage", "use_in_specific_populations", "overdosage"]
 
 
 def tok(text):
@@ -101,6 +104,13 @@ class Retriever:
             hits.extend(self.search(query, top_k=per_section, candidates=candidates,
                                     sections=[sec], drug=drug, rerank=rerank))
         return hits
+
+    def search_diverse(self, query, per_section=1, candidates=10, drug=None, top_k=4):
+        """No router needed: best chunk from every section, then keep the top_k by score."""
+        hits = self.search_by_section(query, ALL_SECTIONS, per_section=per_section,
+                                      candidates=candidates, drug=drug, rerank=True)
+        hits.sort(key=lambda h: h["score"], reverse=True)
+        return hits[:top_k]
 
     def close(self):
         self.client.close()
