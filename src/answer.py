@@ -91,11 +91,15 @@ def answer_question(retriever, question, sections=None, route=True):
     start = time.time()
     routed = sections or (route_sections(question) if route else None)
     drug = retriever.detect_drug(question)
-    hits = retriever.search(question, top_k=8, sections=routed, drug=drug)
-    if routed and (not hits or hits[0]["score"] < ABSTAIN_BELOW):
+    if routed:
+        hits = retriever.search_by_section(question, routed, drug=drug)
+    else:
+        hits = retriever.search(question, top_k=8, drug=drug)
+    top = max((h["score"] for h in hits), default=None)
+    if routed and (top is None or top < ABSTAIN_BELOW):
         hits = retriever.search(question, top_k=8, drug=drug)   # fall back to all sections
         routed = None
-    top = hits[0]["score"] if hits else None
+        top = max((h["score"] for h in hits), default=None)
 
     if top is None or top < ABSTAIN_BELOW:
         return {"answer": NO_EVIDENCE, "abstained": True, "reason": "low retrieval score",

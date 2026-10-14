@@ -18,3 +18,6 @@
 18. Anecdotal debugging replaced by a retrieval eval: 72 templated questions (12 drugs x 6 intents), strict pass = right drug AND right section in the 4 evidence chunks.
 19. Drug-name filter added (drug key = first meaningful word of generic name). Prevents cross-drug contamination, a safety risk.
 20. Known weakness of this eval: templated questions are easy and match our router's rules, so scores are optimistic. Hand-written paraphrases and unanswerable questions come next.
+21. Eval findings: routing gave the largest gain (MRR 0.78 -> 0.96) but let other drugs leak in (drug precision 0.69); the drug filter fixed that (1.00).
+22. The MS MARCO reranker hurt the contraindications intent (0.83 -> 0.50): domain mismatch. Candidate fixes: per-section retrieval (config E), a stronger reranker, or a domain-tuned one.
+23. Caveat: 12 questions per intent and templated wording, so scores are optimistic and differences of one question are noise.

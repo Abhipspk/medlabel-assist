@@ -93,6 +93,15 @@ class Retriever:
         order = np.argsort(scores)[::-1][:top_k]
         return [{**self.chunks[fused[j]], "score": float(scores[j])} for j in order]
 
+    def search_by_section(self, query, sections, per_section=3, candidates=10,
+                          drug=None, rerank=True):
+        """Search each routed section separately so every section gets candidates."""
+        hits = []
+        for sec in sections:
+            hits.extend(self.search(query, top_k=per_section, candidates=candidates,
+                                    sections=[sec], drug=drug, rerank=rerank))
+        return hits
+
     def close(self):
         self.client.close()
 

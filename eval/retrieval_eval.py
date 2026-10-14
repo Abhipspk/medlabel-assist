@@ -17,12 +17,15 @@ INTENTS = [
     ("indications", "What is {d} used to treat?", {"indications_and_usage"}),
     ("overdose", "What happens if someone takes too much {d}?", {"overdosage"}),
 ]
+
 CONFIGS = [
     ("A hybrid only",              dict(rerank=False, route=False, drug=False)),
     ("B + rerank",                 dict(rerank=True, route=False, drug=False)),
     ("C + rerank + routing",       dict(rerank=True, route=True, drug=False)),
     ("D + routing + drug filter",  dict(rerank=True, route=True, drug=True)),
+    ("E + per-section search",     dict(rerank=True, route=True, drug=True, per_section=True)),
 ]
+
 N_DRUGS = 12
 GOLDEN = Path("eval/golden_retrieval.jsonl")
 
@@ -57,7 +60,10 @@ def run(row, cfg):
     q = row["question"]
     routed = route_sections(q) if cfg["route"] else None
     drug = r.detect_drug(q) if cfg["drug"] else None
-    hits = r.search(q, top_k=8, sections=routed, drug=drug, rerank=cfg["rerank"])
+    if routed and cfg.get("per_section"):
+        hits = r.search_by_section(q, routed, drug=drug, rerank=cfg["rerank"])
+    else:
+        hits = r.search(q, top_k=8, sections=routed, drug=drug, rerank=cfg["rerank"])
     if routed and not hits:
         hits = r.search(q, top_k=8, drug=drug, rerank=cfg["rerank"])
     ev = select_evidence(hits, routed)
@@ -68,8 +74,8 @@ def run(row, cfg):
         "hit": any(rel),
         "rr": next((1 / (i + 1) for i, x in enumerate(rel) if x), 0.0),
         "drug_prec": sum(right_drug) / len(ev) if ev else 0.0,
+        "sections": [h["section"] for h in ev],
     }
-
 
 rows = load_golden()
 print(f"{len(rows)} questions over {len({x['drug'] for x in rows})} drugs\n")
@@ -90,6 +96,12 @@ for intent, _, _ in INTENTS:
     idx = [i for i, row in enumerate(rows) if row["intent"] == intent]
     line = "".join(f"{sum(results[n][i]['hit'] for i in idx) / len(idx):6.2f}" for n, _ in CONFIGS)
     print(f"{intent:20s}{line}")
+
+for name, _ in CONFIGS[-2:]:
+    print(f"\nFailures under '{name}':")
+    for row, res in zip(rows, results[name]):
+        if not res["hit"]:
+            print(f"  {row['question']} | expected {row['expected']} | got {res['sections']}")
 
 Path("eval/results_retrieval.json").write_text(json.dumps(results, indent=1), encoding="utf-8")
 r.close()
