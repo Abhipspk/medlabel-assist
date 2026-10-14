@@ -9,8 +9,10 @@ from routing import route_sections
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
 LLM = "qwen2.5:3b"
-ABSTAIN_BELOW = 0.0          # placeholder; we calibrate it in the evaluation step
+ABSTAIN_BELOW = 1.0          # calibrated on the held-out set (see docs/decisions.md)
 NO_EVIDENCE = "NOT ENOUGH EVIDENCE"
+NO_DRUG = ("I could not identify a drug from the labels in this dataset. "
+           "Please name the drug your question is about.")
 
 SYSTEM = (
     "You answer questions about prescription drug labels. "
@@ -35,6 +37,7 @@ def dedupe(hits, limit=4):
         else:
             best[key] = {**h, "n_labels": 1}
     return list(best.values())[:limit]
+
 
 def select_evidence(hits, routed, limit=4):
     """Guarantee the best chunk from each routed section (in priority order),
@@ -87,24 +90,36 @@ def call_llm(question, context):
     return resp.json()["message"]["content"].strip()
 
 
-def answer_question(retriever, question, sections=None, route=True):
-    start = time.time()
+def gather(retriever, question, drug, sections=None, route=True):
+    """The single retrieval path used by the app and the evaluations."""
     routed = sections or (route_sections(question) if route else None)
-    drug = retriever.detect_drug(question)
     if routed:
         hits = retriever.search_by_section(question, routed, drug=drug)
     else:
-        hits = retriever.search(question, top_k=8, drug=drug)
+        hits = retriever.search_diverse(question, drug=drug)
     top = max((h["score"] for h in hits), default=None)
     if routed and (top is None or top < ABSTAIN_BELOW):
-        hits = retriever.search(question, top_k=8, drug=drug)   # fall back to all sections
+        hits = retriever.search_diverse(question, drug=drug)   # router missed: go route-free
         routed = None
         top = max((h["score"] for h in hits), default=None)
+    return hits, routed, top
 
-    if top is None or top < ABSTAIN_BELOW:
-        return {"answer": NO_EVIDENCE, "abstained": True, "reason": "low retrieval score",
-                "top_score": top, "routed": routed, "evidence": [], "cited": [],
-                "uncited": False, "seconds": time.time() - start}
+
+def _refusal(answer, reason, top, routed, start):
+    return {"answer": answer, "abstained": True, "reason": reason, "top_score": top,
+            "routed": routed, "evidence": [], "cited": [], "uncited": False,
+            "seconds": time.time() - start}
+
+
+def answer_question(retriever, question, sections=None, route=True):
+    start = time.time()
+    drug = retriever.detect_drug(question)
+    if drug is None:                                   # gate 1: no recognized drug
+        return _refusal(NO_DRUG, "no recognized drug", None, None, start)
+
+    hits, routed, top = gather(retriever, question, drug, sections, route)
+    if top is None or top < ABSTAIN_BELOW:             # gate 2: weak evidence
+        return _refusal(NO_EVIDENCE, "low retrieval score", top, routed, start)
 
     evidence = select_evidence(hits, routed)
     text = call_llm(question, build_context(evidence))
@@ -140,7 +155,7 @@ if __name__ == "__main__":
         h = out["evidence"][n - 1]
         print(f"  [{n}] {h['generic_name'][:30]} | {h['section']} | {h['manufacturer'][:25]} "
               f"| seen in {h['n_labels']} label(s)")
-        if args.show_evidence:
-            print("\n--- EVERYTHING THE MODEL SAW ---")
-            for n, h in enumerate(out["evidence"], 1):
-                print(f"\n[{n}] {h['section']} | score={h['score']:.2f}\n{h['text'][:500]}")
+    if args.show_evidence:
+        print("\n--- EVERYTHING THE MODEL SAW ---")
+        for n, h in enumerate(out["evidence"], 1):
+            print(f"\n[{n}] {h['section']} | score={h['score']:.2f}\n{h['text'][:500]}")

@@ -27,3 +27,7 @@
 27. Held-out paraphrases scored hit@4 0.69 (vs 1.00 on templates): the rule router never fired. Rules memorize wording; the data says do not extend them.
 28. Candidate fix: section-diverse retrieval (best chunk per section, then top 4 by score), measured against the plain fallback on the same held-out set.
 29. Drug gate proposed: no recognized drug name means refuse. Held-out data: real drugs detected 1.00, invented 0.00.
+30. Adopted section-diverse retrieval as the route-free fallback: held-out hit@4 0.69 -> 0.79.
+31. Gate 1: no recognized drug name means refuse (held-out: real drugs detected 1.00, invented 0.00). Brand-name words map to the generic key.
+32. Gate 2: ABSTAIN_BELOW = 1.0, chosen safety-first from held-out calibration: keeps ~90% of answerable, blocks ~89-92% of real-drug out-of-scope. A wrong answer costs more than a refusal.
+33. Known gaps: contraindications hit@4 only 0.50 on paraphrases (likely reranker domain mismatch; next experiment: a stronger reranker). ~10% of out-of-scope questions pass the score gate and must be caught by the model's refusal and the citation check, to be measured end to end.

@@ -51,11 +51,19 @@ class Retriever:
         for c in self.chunks:
             self.drugs[drug_key(c["generic_name"])].add(c["generic_name"])
         self.drugs.pop("", None)
+        self.alias = {}                        # brand-name word -> drug key
+        for c in self.chunks:
+            b, g = drug_key(c["brand_name"]), drug_key(c["generic_name"])
+            if b and g and b != g and b not in self.drugs:
+                self.alias[b] = g
 
     def detect_drug(self, question):
         for w in re.findall(r"[a-z]+", question.lower()):
-            if len(w) >= 4 and w in self.drugs:
-                return w
+            if len(w) >= 4:
+                if w in self.drugs:
+                    return w
+                if w in self.alias:
+                    return self.alias[w]
         return None
 
     def _dense(self, query, k, sections, drug):
