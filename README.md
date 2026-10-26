@@ -1,5 +1,7 @@
 # MedLabel Assist
 
+![ci](https://github.com/Abhipspk/medlabel-assist/actions/workflows/ci.yml/badge.svg)
+
 A regulated-industry knowledge copilot: ask questions about FDA prescription drug labels and get **cited answers, or a refusal**. Built only with free, local, open-source tools (no paid APIs).
 
 > **Not medical advice.** Answers come from FDA label text only. Always verify against the full official label.
@@ -71,6 +73,8 @@ python src/embed_chunks.py     # slow on CPU, checkpointed and resumable
 python src/index_qdrant.py
 uvicorn api:app --app-dir src  # then open http://127.0.0.1:8000/docs
 ~~~
+
+Demo logins (local use only): analyst1 / analyst-pass, auditor1 / auditor-pass, admin1 / admin-pass. In production, replace them with SSO and set MEDLABEL_JWT_SECRET and MEDLABEL_ENV=production (the server refuses to start in production mode with the default secret).
 
 Docker: `docker compose up --build` (Ollama stays on the host). Tests: `python -m pytest -q`. Evaluation: `python eval/e2e_eval.py` then `python eval/check_gate.py`.
 
