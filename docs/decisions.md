@@ -39,3 +39,5 @@
 39. 7B vs 3B (prompt v1): same answer rate (0.78), all answers cited, but 2x slower (33s vs 17s) and no gain in right-section citations. Same questions fail under both models, so the bottleneck is evidence or prompt, not model size. 3B kept for dev/CI/demo.
 40. Checker bug: numbered-list markers were counted as "numbers not found in evidence". Fixed; evidence text now saved for re-scoring.
 41. Partial-answer prompt (v2) compared with v1 on the same 34 questions under the fixed checker.
+42. Prompt v2 vs v1 (3B, fixed checker, 34 questions): answered 0.78 to 0.94; out-of-scope 12/12 and invented 4/4 still refused; no wrong-drug citations. v2 made default. One numeric-faithfulness flag (ondansetron unsafe) under review. Right-section rate is not comparable across prompts because v2 answers more, harder questions.
+43. Persistent section_ok=False with high word overlap (latanoprost, irbesartan, ondansetron) suggests the section check is too strict. To be verified by reading answers.

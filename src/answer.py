@@ -36,7 +36,7 @@ SYSTEM_V2 = (
     f"Reply exactly {NO_EVIDENCE} only when none of the excerpts is relevant to the question. "
     "Keep the answer under 150 words."
 )
-SYSTEM = SYSTEM_V2 if os.environ.get("MEDLABEL_PROMPT") == "v2" else SYSTEM_V1
+SYSTEM = SYSTEM_V1 if os.environ.get("MEDLABEL_PROMPT") == "v1" else SYSTEM_V2
 
 
 def dedupe(hits, limit=4):
