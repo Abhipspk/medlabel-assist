@@ -1,0 +1,17 @@
+﻿services:
+  medlabel:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      OLLAMA_URL: http://host.docker.internal:11434/api/chat
+      MEDLABEL_JWT_SECRET: ${MEDLABEL_JWT_SECRET:-change-me-to-a-long-random-string-of-32-plus-bytes}
+      MEDLABEL_ENV: dev
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - hf_cache:/models
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+volumes:
+  hf_cache:

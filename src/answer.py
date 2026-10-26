@@ -10,8 +10,9 @@ from routing import route_sections
 from verify import SYSTEM_V3, generate_verified
 from expand import expand_query
 from guardrails import INJECTION_MSG, looks_like_injection, redact_pii, drop_injected
+from tracing import traced
 
-OLLAMA_URL = "http://localhost:11434/api/chat"
+OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434/api/chat")
 LLM = os.environ.get("MEDLABEL_LLM", "qwen2.5:3b")
 ABSTAIN_BELOW = 1.0          # calibrated on the held-out set (see docs/decisions.md)
 NO_EVIDENCE = "NOT ENOUGH EVIDENCE"
@@ -85,7 +86,7 @@ def build_context(evidence):
         blocks.append(f"[{n}] {h['generic_name']} | {h['section']} | {h['manufacturer']}\n{h['text']}")
     return "\n\n".join(blocks)
 
-
+@traced("llm")
 def call_llm(question, context):
     try:
         resp = requests.post(
@@ -107,7 +108,7 @@ def call_llm(question, context):
     resp.raise_for_status()
     return resp.json()["message"]["content"].strip()
 
-
+@traced("retrieve")
 def gather(retriever, question, drug, sections=None, route=True):
     """The single retrieval path used by the app and the evaluations."""
     q = expand_query(question)

@@ -3,7 +3,11 @@ import os
 import uuid
 from contextlib import asynccontextmanager
 
-from fastapi import Depends, FastAPI, HTTPException
+import time
+from prometheus_client import CONTENT_TYPE_LATEST, Counter, Histogram, generate_latest
+from tracing import start_trace, write_trace
+
+from fastapi import Depends, FastAPI, HTTPException, Response
 from pydantic import BaseModel, Field
 
 import answer as answer_mod
@@ -14,6 +18,10 @@ from guardrails import redact_pii
 from retrieval import Retriever
 
 AUDIT_PATH = "logs/audit.jsonl"
+TRACE_PATH = "logs/traces.jsonl"
+ASK_TOTAL = Counter("medlabel_ask_total", "Questions by final decision", ["decision"])
+ASK_SECONDS = Histogram("medlabel_ask_seconds", "Seconds per question, queue included",
+                        buckets=(1, 5, 10, 20, 40, 80))
 DISCLAIMER = ("Answers are generated from FDA label excerpts for information only. "
               "They are not medical advice. Always verify against the full official label.")
 state = {}
@@ -83,11 +91,21 @@ async def login(req: LoginRequest):
 async def ask(req: AskRequest, user=Depends(require_role("analyst", "admin"))):
     request_id = str(uuid.uuid4())
     safe_q, pii = redact_pii(req.question)    # personal data never reaches search, LLM or logs
+    spans = start_trace()
+    t0 = time.perf_counter()
     try:
         async with state["lock"]:
+            queue_ms = round((time.perf_counter() - t0) * 1000)
             out = await asyncio.to_thread(_run, safe_q)
     except RuntimeError:
+        ASK_TOTAL.labels(decision="llm_unavailable").inc()
         raise HTTPException(503, "Language model service is unavailable")
+    total = time.perf_counter() - t0
+    ASK_TOTAL.labels(decision=out["reason"]).inc()
+    ASK_SECONDS.observe(total)
+    write_trace(TRACE_PATH, {"request_id": request_id, "user": user["user"],
+                             "decision": out["reason"], "queue_ms": queue_ms,
+                             "total_ms": round(total * 1000), "spans": spans})
 
     citations = []
     for n in out["cited"]:
@@ -104,6 +122,11 @@ async def ask(req: AskRequest, user=Depends(require_role("analyst", "admin"))):
     return AskResponse(request_id=request_id, answer=out["answer"], abstained=out["abstained"],
                        reason=out["reason"], citations=citations,
                        seconds=round(out["seconds"], 1), disclaimer=DISCLAIMER)
+
+
+@app.get("/metrics")
+async def metrics():
+    return Response(generate_latest(), media_type=CONTENT_TYPE_LATEST)
 
 
 @app.get("/audit")

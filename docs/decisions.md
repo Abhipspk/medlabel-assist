@@ -53,3 +53,6 @@
 53. API: FastAPI, Pydantic validation, JWT (30 min), roles analyst/auditor/admin, demo users hashed with PBKDF2 (production: SSO + secrets manager). PII redacted before search, LLM and audit log.
 54. Audit log is hash-chained JSONL: edits/deletes/reorders are detectable (verify_chain). Production would use an append-only store (S3 Object Lock / WORM) with the chain as a second check.
 55. LLM call runs in a worker thread behind a lock: the event loop stays responsive; concurrency is deliberately limited to 1 on a 16 GB CPU laptop.
+56. Observability: per-request trace (spans retrieve/llm, queue wait, total) to logs/traces.jsonl; Prometheus metrics (/metrics): requests by decision, latency histogram. Own implementation chosen over self-hosted Langfuse: Langfuse needs Postgres+ClickHouse+Redis+object storage, too heavy for 16 GB CPU laptop beside Ollama. Span fields match Langfuse/OpenTelemetry concepts so swapping in is a small change.
+57. JWT default secret lengthened (>=32 bytes) and server refuses to start in MEDLABEL_ENV=production with the default secret (fail closed).
+58. Docker: slim Python 3.11 image, CPU-only torch, data/logs/model-cache mounted as volumes (image stays small, data not baked in), Ollama stays on host via host.docker.internal. /metrics is unauthenticated for local use; production would restrict it at the network layer.

@@ -7,7 +7,9 @@ import jwt
 from fastapi import Depends, HTTPException
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 
-SECRET = os.environ.get("MEDLABEL_JWT_SECRET", "dev-only-secret-change-me")  # production: secrets manager
+SECRET = os.environ.get("MEDLABEL_JWT_SECRET", "dev-only-secret-change-me-it-is-at-least-32-bytes")
+if os.environ.get("MEDLABEL_ENV") == "production" and SECRET.startswith("dev-only"):
+    raise RuntimeError("Refusing to start in production with the default JWT secret")
 ALGO = "HS256"
 TOKEN_MINUTES = 30
 _SALT = b"demo-salt-not-for-production"
