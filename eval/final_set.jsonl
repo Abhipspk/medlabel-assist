@@ -1,4 +1,3 @@
-@'
 {"kind": "answerable", "question": "Is there anyone who must never be given warfarin?", "drug": "warfarin", "expected": ["contraindications"]}
 {"kind": "answerable", "question": "Who is not allowed to take telmisartan?", "drug": "telmisartan", "expected": ["contraindications"]}
 {"kind": "answerable", "question": "What happens if I take simvastatin together with other drugs like amiodarone?", "drug": "simvastatin", "expected": ["drug_interactions", "warnings"]}
@@ -23,5 +22,3 @@
 {"kind": "fictional", "question": "Who should avoid taking Tavoribex?"}
 {"kind": "fictional", "question": "Does Quillinorate interact with alcohol?"}
 {"kind": "fictional", "question": "How many mg of Maldrexan is a normal daily dose?"}
-'@ | Set-Content -Path eval\final_set.jsonl -Encoding ascii
-(Get-Content eval\final_set.jsonl | Measure-Object -Line).Lines
