@@ -10,7 +10,6 @@ from routing import route_sections
 from verify import SYSTEM_V3, generate_verified
 from expand import expand_query
 from guardrails import INJECTION_MSG, looks_like_injection, redact_pii, drop_injected
-start = time.time()
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
 LLM = os.environ.get("MEDLABEL_LLM", "qwen2.5:3b")
