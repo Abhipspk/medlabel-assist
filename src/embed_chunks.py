@@ -6,7 +6,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 MODEL = "BAAI/bge-small-en-v1.5"
-N_LABELS = 300
+N_LABELS = None
 SHARD = 2000
 OUT = Path("data/embeddings")
 OUT.mkdir(parents=True, exist_ok=True)
@@ -14,7 +14,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 with open("data/processed/labels.jsonl", encoding="utf-8") as f:
     set_ids = sorted({json.loads(line)["set_id"] for line in f})
 random.seed(7)
-keep = set(random.sample(set_ids, N_LABELS))
+keep = set(set_ids) if N_LABELS is None else set(random.sample(set_ids, N_LABELS))
 
 chunks = []
 with open("data/processed/chunks.jsonl", encoding="utf-8") as f:
