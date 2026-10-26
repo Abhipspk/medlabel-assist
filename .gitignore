@@ -3,4 +3,4 @@ __pycache__/
 data/
 *.env
 .env
-.pytest_cache/
+.pytest_cache/logs/

@@ -49,3 +49,7 @@
 49. Query expansion: right-section citations 0.69 to 1.00 on the dev set, answered 0.89, out-of-scope 12/12. Caveat: rules were written while looking at these questions; generalisation is measured only on the final hand-written set. Known gaps: ertapenem interactions, montelukast poisoning still abstain.
 50. Guardrails, defence in depth: gate 0 regex for direct injection (OWASP LLM01), PII redaction before search/LLM/logs, indirect-injection filter on retrieved chunks, then drug gate, score gate, prompt rules, citation gate. Regex is bypassable by paraphrase, so layers 2+ matter and are measured separately.
 51. Regex PII redaction chosen over Presidio to stay light on a 16 GB laptop; Presidio is the production upgrade (NER-based, better on names).
+52. Guardrail eval: regex blocked 7/10 attacks, 0/6 false positives. The 3 paraphrases that slipped were refused by the score gate, not by model resistance, so LLM-level injection resistance is not yet independently measured (future work: attacks that retrieve strongly).
+53. API: FastAPI, Pydantic validation, JWT (30 min), roles analyst/auditor/admin, demo users hashed with PBKDF2 (production: SSO + secrets manager). PII redacted before search, LLM and audit log.
+54. Audit log is hash-chained JSONL: edits/deletes/reorders are detectable (verify_chain). Production would use an append-only store (S3 Object Lock / WORM) with the chain as a second check.
+55. LLM call runs in a worker thread behind a lock: the event loop stays responsive; concurrency is deliberately limited to 1 on a 16 GB CPU laptop.
