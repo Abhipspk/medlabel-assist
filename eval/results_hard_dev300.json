@@ -1,0 +1,946 @@
+[
+ {
+  "kind": "answerable",
+  "intent": "contraindications",
+  "routed": false,
+  "drug_found": true,
+  "top": 5.030948162078857,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "interactions",
+  "routed": false,
+  "drug_found": true,
+  "top": 5.129881381988525,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "dosage",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.747032403945923,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "side_effects",
+  "routed": false,
+  "drug_found": true,
+  "top": 5.261686325073242,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "indications",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.6101884841918945,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "overdose",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.355247139930725,
+  "hit": true
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -3.546018600463867,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": 0.7699902653694153,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -1.016371488571167,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "contraindications",
+  "routed": false,
+  "drug_found": true,
+  "top": 7.18237829208374,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "interactions",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.6805877685546875,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "dosage",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.7924699783325195,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "side_effects",
+  "routed": false,
+  "drug_found": true,
+  "top": 5.511335372924805,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "indications",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.4834208488464355,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "overdose",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.153701066970825,
+  "hit": true
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -3.507416248321533,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.543567419052124,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -1.2675005197525024,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "contraindications",
+  "routed": false,
+  "drug_found": true,
+  "top": 5.32817268371582,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "interactions",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.5401430130004883,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "dosage",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.209519386291504,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "side_effects",
+  "routed": false,
+  "drug_found": true,
+  "top": 5.682066917419434,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "indications",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.064724922180176,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "overdose",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.2681918144226074,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -4.537019729614258,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -0.5522152781486511,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -1.814059853553772,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "contraindications",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.5167951583862305,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "interactions",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.325665473937988,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "dosage",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.6779658794403076,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "side_effects",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.508091926574707,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "indications",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.0936193466186523,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "overdose",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.112998962402344,
+  "hit": true
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -4.340075969696045,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": 0.6455641984939575,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -1.7577887773513794,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "contraindications",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.483096122741699,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "interactions",
+  "routed": false,
+  "drug_found": true,
+  "top": 0.5097039937973022,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "dosage",
+  "routed": false,
+  "drug_found": true,
+  "top": 0.9532744288444519,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "side_effects",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.8477896451950073,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "indications",
+  "routed": false,
+  "drug_found": true,
+  "top": -1.0053682327270508,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "overdose",
+  "routed": false,
+  "drug_found": true,
+  "top": -0.8607040047645569,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -5.155224800109863,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -1.5194766521453857,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -2.370058536529541,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "contraindications",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.865395545959473,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "interactions",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.134349822998047,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "dosage",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.948897123336792,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "side_effects",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.6006996631622314,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "indications",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.7450841665267944,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "overdose",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.3644485473632812,
+  "hit": true
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -3.751728057861328,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -0.33822181820869446,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -1.1840767860412598,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "contraindications",
+  "routed": false,
+  "drug_found": true,
+  "top": 6.086620807647705,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "interactions",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.0752406120300293,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "dosage",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.394801616668701,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "side_effects",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.8612496852874756,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "indications",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.8344645500183105,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "overdose",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.2979140281677246,
+  "hit": true
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -3.8797359466552734,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": 0.7956717014312744,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -1.9517157077789307,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "contraindications",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.755852699279785,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "interactions",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.8541316986083984,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "dosage",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.2988386154174805,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "side_effects",
+  "routed": false,
+  "drug_found": true,
+  "top": 5.330003261566162,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "indications",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.225306987762451,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "overdose",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.937028408050537,
+  "hit": true
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -5.453952789306641,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.2440943717956543,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -1.185974359512329,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "contraindications",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.799748659133911,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "interactions",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.2061679363250732,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "dosage",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.304006814956665,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "side_effects",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.9209927320480347,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "indications",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.2191622257232666,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "overdose",
+  "routed": false,
+  "drug_found": true,
+  "top": -0.005548641085624695,
+  "hit": true
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -6.767458915710449,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.6464896202087402,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -4.143896102905273,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "contraindications",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.143453598022461,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "interactions",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.661702871322632,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "dosage",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.0983576774597168,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "side_effects",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.8113174438476562,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "indications",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.727591037750244,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "overdose",
+  "routed": false,
+  "drug_found": true,
+  "top": 0.16901111602783203,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -4.540040016174316,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -1.2178374528884888,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -2.058039426803589,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "contraindications",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.00140905380249,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "interactions",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.018512010574341,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "dosage",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.2367544174194336,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "side_effects",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.7688193321228027,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "indications",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.459402322769165,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "overdose",
+  "routed": false,
+  "drug_found": true,
+  "top": 2.120748519897461,
+  "hit": true
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -5.197558403015137,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -0.13362403213977814,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -2.7750353813171387,
+  "hit": false
+ },
+ {
+  "kind": "answerable",
+  "intent": "contraindications",
+  "routed": false,
+  "drug_found": true,
+  "top": 4.732069492340088,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "interactions",
+  "routed": false,
+  "drug_found": true,
+  "top": 5.272358417510986,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "dosage",
+  "routed": false,
+  "drug_found": true,
+  "top": 0.13077473640441895,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "side_effects",
+  "routed": false,
+  "drug_found": true,
+  "top": 3.787706136703491,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "indications",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.8616406917572021,
+  "hit": true
+ },
+ {
+  "kind": "answerable",
+  "intent": "overdose",
+  "routed": false,
+  "drug_found": true,
+  "top": 1.0012128353118896,
+  "hit": true
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -4.819174766540527,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -1.1990077495574951,
+  "hit": false
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -1.7867437601089478,
+  "hit": false
+ },
+ {
+  "kind": "fictional",
+  "intent": "none",
+  "routed": true,
+  "drug_found": false,
+  "top": -0.4111912250518799,
+  "hit": false
+ },
+ {
+  "kind": "fictional",
+  "intent": "none",
+  "routed": true,
+  "drug_found": false,
+  "top": -4.842463970184326,
+  "hit": false
+ },
+ {
+  "kind": "fictional",
+  "intent": "none",
+  "routed": true,
+  "drug_found": false,
+  "top": -6.406282424926758,
+  "hit": false
+ },
+ {
+  "kind": "fictional",
+  "intent": "none",
+  "routed": true,
+  "drug_found": false,
+  "top": -4.266537666320801,
+  "hit": false
+ },
+ {
+  "kind": "fictional",
+  "intent": "none",
+  "routed": true,
+  "drug_found": false,
+  "top": 1.966001033782959,
+  "hit": false
+ },
+ {
+  "kind": "fictional",
+  "intent": "none",
+  "routed": true,
+  "drug_found": false,
+  "top": -1.6304881572723389,
+  "hit": false
+ },
+ {
+  "kind": "fictional",
+  "intent": "none",
+  "routed": true,
+  "drug_found": false,
+  "top": -3.9467101097106934,
+  "hit": false
+ },
+ {
+  "kind": "fictional",
+  "intent": "none",
+  "routed": true,
+  "drug_found": false,
+  "top": -3.61491322517395,
+  "hit": false
+ },
+ {
+  "kind": "fictional",
+  "intent": "none",
+  "routed": true,
+  "drug_found": false,
+  "top": 2.1384081840515137,
+  "hit": false
+ },
+ {
+  "kind": "fictional",
+  "intent": "none",
+  "routed": true,
+  "drug_found": false,
+  "top": -0.19862791895866394,
+  "hit": false
+ }
+]

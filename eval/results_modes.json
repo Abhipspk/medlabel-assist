@@ -4,31 +4,31 @@
    "kind": "answerable",
    "intent": "contraindications",
    "hit": true,
-   "top": 5.030948162078857
+   "top": 5.081480026245117
   },
   {
    "kind": "answerable",
    "intent": "interactions",
-   "hit": true,
+   "hit": false,
    "top": 5.129881381988525
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 3.747032403945923
+   "top": 3.74703311920166
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": false,
-   "top": 5.261686325073242
+   "top": 5.297287940979004
   },
   {
    "kind": "answerable",
    "intent": "indications",
    "hit": true,
-   "top": 2.6101884841918945
+   "top": 2.3081302642822266
   },
   {
    "kind": "answerable",
@@ -40,31 +40,31 @@
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -3.546018600463867
+   "top": -3.6459028720855713
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": 0.7699902653694153
+   "top": 0.25430452823638916
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.016371488571167
+   "top": -1.0163716077804565
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
    "hit": false,
-   "top": 7.18237829208374
+   "top": 7.182378768920898
   },
   {
    "kind": "answerable",
    "intent": "interactions",
-   "hit": true,
-   "top": 4.6805877685546875
+   "hit": false,
+   "top": 5.027188301086426
   },
   {
    "kind": "answerable",
@@ -82,91 +82,91 @@
    "kind": "answerable",
    "intent": "indications",
    "hit": false,
-   "top": 3.4834208488464355
+   "top": 3.2090046405792236
   },
   {
    "kind": "answerable",
    "intent": "overdose",
    "hit": true,
-   "top": 2.153701066970825
+   "top": 2.1570191383361816
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -3.507416248321533
+   "top": -4.054906845092773
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": 2.543567419052124
+   "top": 2.5435681343078613
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.2675005197525024
+   "top": -1.2675013542175293
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
-   "hit": false,
-   "top": 5.32817268371582
+   "hit": true,
+   "top": 5.435495376586914
   },
   {
    "kind": "answerable",
    "intent": "interactions",
    "hit": false,
-   "top": 3.5401430130004883
+   "top": 2.418994188308716
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 4.209519386291504
+   "top": 5.158851623535156
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 5.682066917419434
+   "top": 6.545220375061035
   },
   {
    "kind": "answerable",
    "intent": "indications",
    "hit": false,
-   "top": 3.064724922180176
+   "top": 1.9344348907470703
   },
   {
    "kind": "answerable",
    "intent": "overdose",
-   "hit": false,
-   "top": 1.2681918144226074
+   "hit": true,
+   "top": 1.1628189086914062
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -4.537019729614258
+   "top": -4.9992852210998535
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -0.5522152781486511
+   "top": 0.11067301034927368
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.814059853553772
+   "top": -1.8140606880187988
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
    "hit": false,
-   "top": 4.5167951583862305
+   "top": 4.516795635223389
   },
   {
    "kind": "answerable",
@@ -178,19 +178,19 @@
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 3.6779658794403076
+   "top": 3.6779654026031494
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 4.508091926574707
+   "top": 4.212083339691162
   },
   {
    "kind": "answerable",
    "intent": "indications",
-   "hit": true,
-   "top": 2.0936193466186523
+   "hit": false,
+   "top": 2.088181257247925
   },
   {
    "kind": "answerable",
@@ -202,7 +202,7 @@
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -4.340075969696045
+   "top": -4.851641654968262
   },
   {
    "kind": "out_of_scope",
@@ -214,7 +214,7 @@
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.7577887773513794
+   "top": -1.3414497375488281
   },
   {
    "kind": "answerable",
@@ -273,68 +273,68 @@
   {
    "kind": "answerable",
    "intent": "contraindications",
-   "hit": false,
-   "top": 4.865395545959473
+   "hit": true,
+   "top": 4.846035480499268
   },
   {
    "kind": "answerable",
    "intent": "interactions",
    "hit": false,
-   "top": 4.134349822998047
+   "top": 4.287481784820557
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 2.948897123336792
+   "top": 3.1943373680114746
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 3.6006996631622314
+   "top": 3.295093297958374
   },
   {
    "kind": "answerable",
    "intent": "indications",
-   "hit": false,
-   "top": 1.7450841665267944
+   "hit": true,
+   "top": 1.6345512866973877
   },
   {
    "kind": "answerable",
    "intent": "overdose",
    "hit": true,
-   "top": 2.3644485473632812
+   "top": 2.364448070526123
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -3.751728057861328
+   "top": -3.7517285346984863
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -0.33822181820869446
+   "top": -0.173674076795578
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.1840767860412598
+   "top": -0.508784294128418
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
    "hit": false,
-   "top": 6.086620807647705
+   "top": 5.999637603759766
   },
   {
    "kind": "answerable",
    "intent": "interactions",
-   "hit": false,
-   "top": 3.0752406120300293
+   "hit": true,
+   "top": 2.4463882446289062
   },
   {
    "kind": "answerable",
@@ -346,13 +346,13 @@
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 3.8612496852874756
+   "top": 3.7101051807403564
   },
   {
    "kind": "answerable",
    "intent": "indications",
    "hit": true,
-   "top": 2.8344645500183105
+   "top": 2.8203182220458984
   },
   {
    "kind": "answerable",
@@ -364,79 +364,79 @@
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -3.8797359466552734
+   "top": -3.8797357082366943
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": 0.7956717014312744
+   "top": 0.34450939297676086
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.9517157077789307
+   "top": -2.359956741333008
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
-   "hit": true,
-   "top": 4.755852699279785
+   "hit": false,
+   "top": 5.551706790924072
   },
   {
    "kind": "answerable",
    "intent": "interactions",
    "hit": true,
-   "top": 3.8541316986083984
+   "top": 3.945396661758423
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 4.2988386154174805
+   "top": 4.39586877822876
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 5.330003261566162
+   "top": 5.399829864501953
   },
   {
    "kind": "answerable",
    "intent": "indications",
    "hit": true,
-   "top": 2.225306987762451
+   "top": 2.3814685344696045
   },
   {
    "kind": "answerable",
    "intent": "overdose",
    "hit": true,
-   "top": 1.937028408050537
+   "top": 2.286259889602661
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -5.453952789306641
+   "top": -3.72445011138916
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": 1.2440943717956543
+   "top": 1.6662895679473877
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.185974359512329
+   "top": 0.5520998239517212
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
-   "hit": true,
-   "top": 3.799748659133911
+   "hit": false,
+   "top": 3.799750804901123
   },
   {
    "kind": "answerable",
@@ -448,13 +448,13 @@
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 3.304006814956665
+   "top": 3.3040056228637695
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 1.9209927320480347
+   "top": 3.308830738067627
   },
   {
    "kind": "answerable",
@@ -466,13 +466,13 @@
    "kind": "answerable",
    "intent": "overdose",
    "hit": true,
-   "top": -0.005548641085624695
+   "top": 1.9655884504318237
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -6.767458915710449
+   "top": -6.619266986846924
   },
   {
    "kind": "out_of_scope",
@@ -484,79 +484,79 @@
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -4.143896102905273
+   "top": -3.082404851913452
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
    "hit": false,
-   "top": 3.143453598022461
+   "top": 4.315720081329346
   },
   {
    "kind": "answerable",
    "intent": "interactions",
    "hit": true,
-   "top": 2.661702871322632
+   "top": 3.190277099609375
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 1.0983576774597168
+   "top": 2.5808486938476562
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 2.8113174438476562
+   "top": 3.274864435195923
   },
   {
    "kind": "answerable",
    "intent": "indications",
    "hit": true,
-   "top": 2.727591037750244
+   "top": 4.124276161193848
   },
   {
    "kind": "answerable",
    "intent": "overdose",
    "hit": false,
-   "top": 0.16901111602783203
+   "top": 1.0425333976745605
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -4.540040016174316
+   "top": -5.11384391784668
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.2178374528884888
+   "top": -0.803275465965271
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -2.058039426803589
+   "top": -1.7413020133972168
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
    "hit": false,
-   "top": 4.00140905380249
+   "top": 4.001409530639648
   },
   {
    "kind": "answerable",
    "intent": "interactions",
    "hit": false,
-   "top": 2.018512010574341
+   "top": 2.0174198150634766
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 2.2367544174194336
+   "top": 2.2367541790008545
   },
   {
    "kind": "answerable",
@@ -568,7 +568,7 @@
    "kind": "answerable",
    "intent": "indications",
    "hit": true,
-   "top": 1.459402322769165
+   "top": 1.225274682044983
   },
   {
    "kind": "answerable",
@@ -586,31 +586,31 @@
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -0.13362403213977814
+   "top": 0.02737831138074398
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -2.7750353813171387
+   "top": -2.912808418273926
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
    "hit": true,
-   "top": 4.732069492340088
+   "top": 4.732071399688721
   },
   {
    "kind": "answerable",
    "intent": "interactions",
    "hit": true,
-   "top": 5.272358417510986
+   "top": 6.12121057510376
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 0.13077473640441895
+   "top": 1.0212898254394531
   },
   {
    "kind": "answerable",
@@ -622,13 +622,13 @@
    "kind": "answerable",
    "intent": "indications",
    "hit": true,
-   "top": 1.8616406917572021
+   "top": 1.861640214920044
   },
   {
    "kind": "answerable",
    "intent": "overdose",
    "hit": true,
-   "top": 1.0012128353118896
+   "top": 1.722683072090149
   },
   {
    "kind": "out_of_scope",
@@ -640,7 +640,7 @@
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.1990077495574951
+   "top": -0.7688929438591003
   },
   {
    "kind": "out_of_scope",
@@ -652,61 +652,61 @@
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -0.4111912250518799
+   "top": -0.41119149327278137
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -4.842463970184326
+   "top": -2.92626953125
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -6.406282424926758
+   "top": -2.8534979820251465
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -4.266537666320801
+   "top": -2.2453818321228027
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": 1.966001033782959
+   "top": -0.031904347240924835
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -1.6304881572723389
+   "top": -1.1701468229293823
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -3.9467101097106934
+   "top": 0.26295483112335205
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -3.61491322517395
+   "top": -1.5270068645477295
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": 2.1384081840515137
+   "top": 2.1698708534240723
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -0.19862791895866394
+   "top": -0.7375583648681641
   }
  ],
  "diverse": [
@@ -714,25 +714,25 @@
    "kind": "answerable",
    "intent": "contraindications",
    "hit": true,
-   "top": 5.030947685241699
+   "top": 5.081479072570801
   },
   {
    "kind": "answerable",
    "intent": "interactions",
    "hit": true,
-   "top": 5.129881381988525
+   "top": 5.129880905151367
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 3.7470314502716064
+   "top": 3.7470321655273438
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
-   "hit": false,
-   "top": 5.261687278747559
+   "hit": true,
+   "top": 5.297287940979004
   },
   {
    "kind": "answerable",
@@ -774,7 +774,7 @@
    "kind": "answerable",
    "intent": "interactions",
    "hit": true,
-   "top": 4.6805877685546875
+   "top": 5.027187347412109
   },
   {
    "kind": "answerable",
@@ -786,7 +786,7 @@
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 5.672855377197266
+   "top": 5.672854423522949
   },
   {
    "kind": "answerable",
@@ -798,7 +798,7 @@
    "kind": "answerable",
    "intent": "overdose",
    "hit": true,
-   "top": 2.1537013053894043
+   "top": 2.15701961517334
   },
   {
    "kind": "out_of_scope",
@@ -816,79 +816,79 @@
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.2675013542175293
+   "top": -1.267500400543213
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
-   "hit": false,
-   "top": 5.328174591064453
+   "hit": true,
+   "top": 5.435493469238281
   },
   {
    "kind": "answerable",
    "intent": "interactions",
-   "hit": false,
-   "top": 3.5401411056518555
+   "hit": true,
+   "top": 4.3202009201049805
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 4.209519386291504
+   "top": 5.158851623535156
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 5.682065963745117
+   "top": 6.545220375061035
   },
   {
    "kind": "answerable",
    "intent": "indications",
    "hit": false,
-   "top": 3.064725399017334
+   "top": 2.7788617610931396
   },
   {
    "kind": "answerable",
    "intent": "overdose",
    "hit": true,
-   "top": 1.5644893646240234
+   "top": 1.860588550567627
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -4.537019729614258
+   "top": -4.217620849609375
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -0.12230702489614487
+   "top": 0.1106732115149498
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.8140592575073242
+   "top": -1.7261346578598022
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
    "hit": false,
-   "top": 4.798144817352295
+   "top": 4.516795635223389
   },
   {
    "kind": "answerable",
    "intent": "interactions",
    "hit": true,
-   "top": 4.325665473937988
+   "top": 4.330051422119141
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 3.677966594696045
+   "top": 3.6779661178588867
   },
   {
    "kind": "answerable",
@@ -900,31 +900,31 @@
    "kind": "answerable",
    "intent": "indications",
    "hit": true,
-   "top": 2.151711940765381
+   "top": 2.088179588317871
   },
   {
    "kind": "answerable",
    "intent": "overdose",
    "hit": true,
-   "top": 4.112998008728027
+   "top": 4.112997055053711
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -4.274555206298828
+   "top": -4.295997142791748
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": 0.7054460048675537
+   "top": 1.0675313472747803
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.2617270946502686
+   "top": -1.299261212348938
   },
   {
    "kind": "answerable",
@@ -983,32 +983,32 @@
   {
    "kind": "answerable",
    "intent": "contraindications",
-   "hit": false,
-   "top": 4.865395545959473
+   "hit": true,
+   "top": 4.846036434173584
   },
   {
    "kind": "answerable",
    "intent": "interactions",
    "hit": true,
-   "top": 4.134349346160889
+   "top": 4.287481784820557
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 2.948899030685425
+   "top": 3.1943373680114746
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 3.6007003784179688
+   "top": 3.2950947284698486
   },
   {
    "kind": "answerable",
    "intent": "indications",
-   "hit": false,
-   "top": 1.7450838088989258
+   "hit": true,
+   "top": 1.7786741256713867
   },
   {
    "kind": "answerable",
@@ -1020,37 +1020,37 @@
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -3.751728057861328
+   "top": -3.1056041717529297
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -0.3382226228713989
+   "top": 0.2486511617898941
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.1840771436691284
+   "top": -0.508782684803009
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
    "hit": false,
-   "top": 5.999637603759766
+   "top": 5.676826477050781
   },
   {
    "kind": "answerable",
    "intent": "interactions",
    "hit": true,
-   "top": 3.075242042541504
+   "top": 3.1330699920654297
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 2.394801616668701
+   "top": 2.473764419555664
   },
   {
    "kind": "answerable",
@@ -1068,79 +1068,79 @@
    "kind": "answerable",
    "intent": "overdose",
    "hit": true,
-   "top": 2.297912836074829
+   "top": 2.297913074493408
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -3.487025260925293
+   "top": -3.8797359466552734
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": 1.2088525295257568
+   "top": 1.2088513374328613
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.6702589988708496
+   "top": -1.6427959203720093
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
    "hit": true,
-   "top": 4.755855560302734
+   "top": 5.551705837249756
   },
   {
    "kind": "answerable",
    "intent": "interactions",
    "hit": true,
-   "top": 3.8541297912597656
+   "top": 3.945396661758423
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 4.2988386154174805
+   "top": 4.39586877822876
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 5.330004692077637
+   "top": 5.418768882751465
   },
   {
    "kind": "answerable",
    "intent": "indications",
    "hit": true,
-   "top": 2.225306987762451
+   "top": 2.3814682960510254
   },
   {
    "kind": "answerable",
    "intent": "overdose",
    "hit": true,
-   "top": 1.9370282888412476
+   "top": 2.286261796951294
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -4.962742805480957
+   "top": -3.72445011138916
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": 1.2440948486328125
+   "top": 1.6662898063659668
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.185974359512329
+   "top": 0.5520998239517212
   },
   {
    "kind": "answerable",
@@ -1158,13 +1158,13 @@
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 3.304006814956665
+   "top": 3.304006576538086
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 3.525311231613159
+   "top": 4.197149753570557
   },
   {
    "kind": "answerable",
@@ -1176,13 +1176,13 @@
    "kind": "answerable",
    "intent": "overdose",
    "hit": true,
-   "top": -0.005548831075429916
+   "top": 1.9655879735946655
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -6.767457008361816
+   "top": -6.339351654052734
   },
   {
    "kind": "out_of_scope",
@@ -1194,61 +1194,61 @@
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -4.023161888122559
+   "top": -3.0824050903320312
   },
   {
    "kind": "answerable",
    "intent": "contraindications",
-   "hit": true,
-   "top": 3.1434526443481445
+   "hit": false,
+   "top": 4.990817070007324
   },
   {
    "kind": "answerable",
    "intent": "interactions",
    "hit": true,
-   "top": 2.6617026329040527
+   "top": 3.190277099609375
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 1.0983576774597168
+   "top": 2.5808486938476562
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 2.8113157749176025
+   "top": 4.4260430335998535
   },
   {
    "kind": "answerable",
    "intent": "indications",
    "hit": true,
-   "top": 2.727591037750244
+   "top": 4.124277114868164
   },
   {
    "kind": "answerable",
    "intent": "overdose",
    "hit": false,
-   "top": 0.16901198029518127
+   "top": 1.0425333976745605
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -4.540040969848633
+   "top": -4.60853385925293
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.2178351879119873
+   "top": -0.7746109366416931
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.543292760848999
+   "top": -1.46871018409729
   },
   {
    "kind": "answerable",
@@ -1260,7 +1260,7 @@
    "kind": "answerable",
    "intent": "interactions",
    "hit": false,
-   "top": 2.2520174980163574
+   "top": 2.172743320465088
   },
   {
    "kind": "answerable",
@@ -1278,7 +1278,7 @@
    "kind": "answerable",
    "intent": "indications",
    "hit": true,
-   "top": 1.4594022035598755
+   "top": 1.4594025611877441
   },
   {
    "kind": "answerable",
@@ -1296,13 +1296,13 @@
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -0.13362568616867065
+   "top": 0.027378469705581665
   },
   {
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -2.112703323364258
+   "top": -2.1127023696899414
   },
   {
    "kind": "answerable",
@@ -1314,31 +1314,31 @@
    "kind": "answerable",
    "intent": "interactions",
    "hit": true,
-   "top": 5.272359848022461
+   "top": 6.12121057510376
   },
   {
    "kind": "answerable",
    "intent": "dosage",
    "hit": true,
-   "top": 0.13077446818351746
+   "top": 1.0212898254394531
   },
   {
    "kind": "answerable",
    "intent": "side_effects",
    "hit": true,
-   "top": 3.787705898284912
+   "top": 3.787706136703491
   },
   {
    "kind": "answerable",
    "intent": "indications",
    "hit": true,
-   "top": 1.861640453338623
+   "top": 1.955016851425171
   },
   {
    "kind": "answerable",
    "intent": "overdose",
    "hit": true,
-   "top": 1.0012129545211792
+   "top": 1.7226828336715698
   },
   {
    "kind": "out_of_scope",
@@ -1350,7 +1350,7 @@
    "kind": "out_of_scope",
    "intent": "none",
    "hit": false,
-   "top": -1.1990077495574951
+   "top": -0.7688929438591003
   },
   {
    "kind": "out_of_scope",
@@ -1362,61 +1362,61 @@
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -0.4111912250518799
+   "top": -0.41119149327278137
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -4.842463970184326
+   "top": -2.92626953125
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -6.406282424926758
+   "top": -2.8534979820251465
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -4.266537666320801
+   "top": -2.2453818321228027
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": 1.966001033782959
+   "top": -0.031904347240924835
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -1.6304881572723389
+   "top": -1.1701468229293823
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -3.9467101097106934
+   "top": 0.26295483112335205
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -3.61491322517395
+   "top": -1.5270068645477295
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": 2.1384081840515137
+   "top": 2.1698708534240723
   },
   {
    "kind": "fictional",
    "intent": "none",
    "hit": false,
-   "top": -0.19862791895866394
+   "top": -0.7375583648681641
   }
  ]
 }

@@ -4,7 +4,7 @@ import sys
 sys.path.insert(0, "src")
 from gate import failures, metrics  # noqa: E402
 
-path = sys.argv[1] if len(sys.argv) > 1 else "eval/results_e2e_qwen2_5_3b_v3.json"
+path = sys.argv[1] if len(sys.argv) > 1 else "eval/results_e2e_latest.json"
 m = metrics(json.load(open(path, encoding="utf-8")))
 for k, v in m.items():
     print(f"  {k:34s} {v:.2f}")

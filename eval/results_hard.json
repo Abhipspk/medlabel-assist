@@ -4,7 +4,7 @@
   "intent": "contraindications",
   "routed": false,
   "drug_found": true,
-  "top": 5.030948162078857,
+  "top": 5.081480026245117,
   "hit": true
  },
  {
@@ -13,14 +13,14 @@
   "routed": false,
   "drug_found": true,
   "top": 5.129881381988525,
-  "hit": true
+  "hit": false
  },
  {
   "kind": "answerable",
   "intent": "dosage",
   "routed": false,
   "drug_found": true,
-  "top": 3.747032403945923,
+  "top": 3.74703311920166,
   "hit": true
  },
  {
@@ -28,7 +28,7 @@
   "intent": "side_effects",
   "routed": false,
   "drug_found": true,
-  "top": 5.261686325073242,
+  "top": 5.297287940979004,
   "hit": false
  },
  {
@@ -36,7 +36,7 @@
   "intent": "indications",
   "routed": false,
   "drug_found": true,
-  "top": 2.6101884841918945,
+  "top": 2.3081302642822266,
   "hit": true
  },
  {
@@ -52,7 +52,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -3.546018600463867,
+  "top": -3.6459028720855713,
   "hit": false
  },
  {
@@ -60,7 +60,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": 0.7699902653694153,
+  "top": 0.25430452823638916,
   "hit": false
  },
  {
@@ -68,7 +68,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -1.016371488571167,
+  "top": -1.0163716077804565,
   "hit": false
  },
  {
@@ -76,7 +76,7 @@
   "intent": "contraindications",
   "routed": false,
   "drug_found": true,
-  "top": 7.18237829208374,
+  "top": 7.182378768920898,
   "hit": false
  },
  {
@@ -84,8 +84,8 @@
   "intent": "interactions",
   "routed": false,
   "drug_found": true,
-  "top": 4.6805877685546875,
-  "hit": true
+  "top": 5.027188301086426,
+  "hit": false
  },
  {
   "kind": "answerable",
@@ -108,7 +108,7 @@
   "intent": "indications",
   "routed": false,
   "drug_found": true,
-  "top": 3.4834208488464355,
+  "top": 3.2090046405792236,
   "hit": false
  },
  {
@@ -116,7 +116,7 @@
   "intent": "overdose",
   "routed": false,
   "drug_found": true,
-  "top": 2.153701066970825,
+  "top": 2.1570191383361816,
   "hit": true
  },
  {
@@ -124,7 +124,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -3.507416248321533,
+  "top": -4.054906845092773,
   "hit": false
  },
  {
@@ -132,7 +132,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": 2.543567419052124,
+  "top": 2.5435681343078613,
   "hit": false
  },
  {
@@ -140,7 +140,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -1.2675005197525024,
+  "top": -1.2675013542175293,
   "hit": false
  },
  {
@@ -148,15 +148,15 @@
   "intent": "contraindications",
   "routed": false,
   "drug_found": true,
-  "top": 5.32817268371582,
-  "hit": false
+  "top": 5.435495376586914,
+  "hit": true
  },
  {
   "kind": "answerable",
   "intent": "interactions",
   "routed": false,
   "drug_found": true,
-  "top": 3.5401430130004883,
+  "top": 2.418994188308716,
   "hit": false
  },
  {
@@ -164,7 +164,7 @@
   "intent": "dosage",
   "routed": false,
   "drug_found": true,
-  "top": 4.209519386291504,
+  "top": 5.158851623535156,
   "hit": true
  },
  {
@@ -172,7 +172,7 @@
   "intent": "side_effects",
   "routed": false,
   "drug_found": true,
-  "top": 5.682066917419434,
+  "top": 6.545220375061035,
   "hit": true
  },
  {
@@ -180,7 +180,7 @@
   "intent": "indications",
   "routed": false,
   "drug_found": true,
-  "top": 3.064724922180176,
+  "top": 1.9344348907470703,
   "hit": false
  },
  {
@@ -188,7 +188,15 @@
   "intent": "overdose",
   "routed": false,
   "drug_found": true,
-  "top": 1.2681918144226074,
+  "top": 1.1628189086914062,
+  "hit": true
+ },
+ {
+  "kind": "out_of_scope",
+  "intent": "none",
+  "routed": false,
+  "drug_found": true,
+  "top": -4.9992852210998535,
   "hit": false
  },
  {
@@ -196,7 +204,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -4.537019729614258,
+  "top": 0.11067301034927368,
   "hit": false
  },
  {
@@ -204,15 +212,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -0.5522152781486511,
-  "hit": false
- },
- {
-  "kind": "out_of_scope",
-  "intent": "none",
-  "routed": false,
-  "drug_found": true,
-  "top": -1.814059853553772,
+  "top": -1.8140606880187988,
   "hit": false
  },
  {
@@ -220,7 +220,7 @@
   "intent": "contraindications",
   "routed": false,
   "drug_found": true,
-  "top": 4.5167951583862305,
+  "top": 4.516795635223389,
   "hit": false
  },
  {
@@ -236,7 +236,7 @@
   "intent": "dosage",
   "routed": false,
   "drug_found": true,
-  "top": 3.6779658794403076,
+  "top": 3.6779654026031494,
   "hit": true
  },
  {
@@ -244,7 +244,7 @@
   "intent": "side_effects",
   "routed": false,
   "drug_found": true,
-  "top": 4.508091926574707,
+  "top": 4.212083339691162,
   "hit": true
  },
  {
@@ -252,8 +252,8 @@
   "intent": "indications",
   "routed": false,
   "drug_found": true,
-  "top": 2.0936193466186523,
-  "hit": true
+  "top": 2.088181257247925,
+  "hit": false
  },
  {
   "kind": "answerable",
@@ -268,7 +268,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -4.340075969696045,
+  "top": -4.851641654968262,
   "hit": false
  },
  {
@@ -284,7 +284,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -1.7577887773513794,
+  "top": -1.3414497375488281,
   "hit": false
  },
  {
@@ -364,15 +364,15 @@
   "intent": "contraindications",
   "routed": false,
   "drug_found": true,
-  "top": 4.865395545959473,
-  "hit": false
+  "top": 4.846035480499268,
+  "hit": true
  },
  {
   "kind": "answerable",
   "intent": "interactions",
   "routed": false,
   "drug_found": true,
-  "top": 4.134349822998047,
+  "top": 4.287481784820557,
   "hit": false
  },
  {
@@ -380,7 +380,7 @@
   "intent": "dosage",
   "routed": false,
   "drug_found": true,
-  "top": 2.948897123336792,
+  "top": 3.1943373680114746,
   "hit": true
  },
  {
@@ -388,7 +388,7 @@
   "intent": "side_effects",
   "routed": false,
   "drug_found": true,
-  "top": 3.6006996631622314,
+  "top": 3.295093297958374,
   "hit": true
  },
  {
@@ -396,15 +396,15 @@
   "intent": "indications",
   "routed": false,
   "drug_found": true,
-  "top": 1.7450841665267944,
-  "hit": false
+  "top": 1.6345512866973877,
+  "hit": true
  },
  {
   "kind": "answerable",
   "intent": "overdose",
   "routed": false,
   "drug_found": true,
-  "top": 2.3644485473632812,
+  "top": 2.364448070526123,
   "hit": true
  },
  {
@@ -412,7 +412,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -3.751728057861328,
+  "top": -3.7517285346984863,
   "hit": false
  },
  {
@@ -420,7 +420,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -0.33822181820869446,
+  "top": -0.173674076795578,
   "hit": false
  },
  {
@@ -428,7 +428,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -1.1840767860412598,
+  "top": -0.508784294128418,
   "hit": false
  },
  {
@@ -436,7 +436,7 @@
   "intent": "contraindications",
   "routed": false,
   "drug_found": true,
-  "top": 6.086620807647705,
+  "top": 5.999637603759766,
   "hit": false
  },
  {
@@ -444,8 +444,8 @@
   "intent": "interactions",
   "routed": false,
   "drug_found": true,
-  "top": 3.0752406120300293,
-  "hit": false
+  "top": 2.4463882446289062,
+  "hit": true
  },
  {
   "kind": "answerable",
@@ -460,7 +460,7 @@
   "intent": "side_effects",
   "routed": false,
   "drug_found": true,
-  "top": 3.8612496852874756,
+  "top": 3.7101051807403564,
   "hit": true
  },
  {
@@ -468,7 +468,7 @@
   "intent": "indications",
   "routed": false,
   "drug_found": true,
-  "top": 2.8344645500183105,
+  "top": 2.8203182220458984,
   "hit": true
  },
  {
@@ -484,7 +484,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -3.8797359466552734,
+  "top": -3.8797357082366943,
   "hit": false
  },
  {
@@ -492,7 +492,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": 0.7956717014312744,
+  "top": 0.34450939297676086,
   "hit": false
  },
  {
@@ -500,7 +500,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -1.9517157077789307,
+  "top": -2.359956741333008,
   "hit": false
  },
  {
@@ -508,15 +508,15 @@
   "intent": "contraindications",
   "routed": false,
   "drug_found": true,
-  "top": 4.755852699279785,
-  "hit": true
+  "top": 5.551706790924072,
+  "hit": false
  },
  {
   "kind": "answerable",
   "intent": "interactions",
   "routed": false,
   "drug_found": true,
-  "top": 3.8541316986083984,
+  "top": 3.945396661758423,
   "hit": true
  },
  {
@@ -524,7 +524,7 @@
   "intent": "dosage",
   "routed": false,
   "drug_found": true,
-  "top": 4.2988386154174805,
+  "top": 4.39586877822876,
   "hit": true
  },
  {
@@ -532,7 +532,7 @@
   "intent": "side_effects",
   "routed": false,
   "drug_found": true,
-  "top": 5.330003261566162,
+  "top": 5.399829864501953,
   "hit": true
  },
  {
@@ -540,7 +540,7 @@
   "intent": "indications",
   "routed": false,
   "drug_found": true,
-  "top": 2.225306987762451,
+  "top": 2.3814685344696045,
   "hit": true
  },
  {
@@ -548,7 +548,7 @@
   "intent": "overdose",
   "routed": false,
   "drug_found": true,
-  "top": 1.937028408050537,
+  "top": 2.286259889602661,
   "hit": true
  },
  {
@@ -556,7 +556,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -5.453952789306641,
+  "top": -3.72445011138916,
   "hit": false
  },
  {
@@ -564,7 +564,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": 1.2440943717956543,
+  "top": 1.6662895679473877,
   "hit": false
  },
  {
@@ -572,7 +572,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -1.185974359512329,
+  "top": 0.5520998239517212,
   "hit": false
  },
  {
@@ -580,8 +580,8 @@
   "intent": "contraindications",
   "routed": false,
   "drug_found": true,
-  "top": 3.799748659133911,
-  "hit": true
+  "top": 3.799750804901123,
+  "hit": false
  },
  {
   "kind": "answerable",
@@ -596,7 +596,7 @@
   "intent": "dosage",
   "routed": false,
   "drug_found": true,
-  "top": 3.304006814956665,
+  "top": 3.3040056228637695,
   "hit": true
  },
  {
@@ -604,7 +604,7 @@
   "intent": "side_effects",
   "routed": false,
   "drug_found": true,
-  "top": 1.9209927320480347,
+  "top": 3.308830738067627,
   "hit": true
  },
  {
@@ -620,7 +620,7 @@
   "intent": "overdose",
   "routed": false,
   "drug_found": true,
-  "top": -0.005548641085624695,
+  "top": 1.9655884504318237,
   "hit": true
  },
  {
@@ -628,7 +628,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -6.767458915710449,
+  "top": -6.619266986846924,
   "hit": false
  },
  {
@@ -644,7 +644,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -4.143896102905273,
+  "top": -3.082404851913452,
   "hit": false
  },
  {
@@ -652,7 +652,7 @@
   "intent": "contraindications",
   "routed": false,
   "drug_found": true,
-  "top": 3.143453598022461,
+  "top": 4.315720081329346,
   "hit": false
  },
  {
@@ -660,7 +660,7 @@
   "intent": "interactions",
   "routed": false,
   "drug_found": true,
-  "top": 2.661702871322632,
+  "top": 3.190277099609375,
   "hit": true
  },
  {
@@ -668,7 +668,7 @@
   "intent": "dosage",
   "routed": false,
   "drug_found": true,
-  "top": 1.0983576774597168,
+  "top": 2.5808486938476562,
   "hit": true
  },
  {
@@ -676,7 +676,7 @@
   "intent": "side_effects",
   "routed": false,
   "drug_found": true,
-  "top": 2.8113174438476562,
+  "top": 3.274864435195923,
   "hit": true
  },
  {
@@ -684,7 +684,7 @@
   "intent": "indications",
   "routed": false,
   "drug_found": true,
-  "top": 2.727591037750244,
+  "top": 4.124276161193848,
   "hit": true
  },
  {
@@ -692,7 +692,7 @@
   "intent": "overdose",
   "routed": false,
   "drug_found": true,
-  "top": 0.16901111602783203,
+  "top": 1.0425333976745605,
   "hit": false
  },
  {
@@ -700,7 +700,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -4.540040016174316,
+  "top": -5.11384391784668,
   "hit": false
  },
  {
@@ -708,7 +708,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -1.2178374528884888,
+  "top": -0.803275465965271,
   "hit": false
  },
  {
@@ -716,7 +716,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -2.058039426803589,
+  "top": -1.7413020133972168,
   "hit": false
  },
  {
@@ -724,7 +724,7 @@
   "intent": "contraindications",
   "routed": false,
   "drug_found": true,
-  "top": 4.00140905380249,
+  "top": 4.001409530639648,
   "hit": false
  },
  {
@@ -732,7 +732,7 @@
   "intent": "interactions",
   "routed": false,
   "drug_found": true,
-  "top": 2.018512010574341,
+  "top": 2.0174198150634766,
   "hit": false
  },
  {
@@ -740,7 +740,7 @@
   "intent": "dosage",
   "routed": false,
   "drug_found": true,
-  "top": 2.2367544174194336,
+  "top": 2.2367541790008545,
   "hit": true
  },
  {
@@ -756,7 +756,7 @@
   "intent": "indications",
   "routed": false,
   "drug_found": true,
-  "top": 1.459402322769165,
+  "top": 1.225274682044983,
   "hit": true
  },
  {
@@ -780,7 +780,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -0.13362403213977814,
+  "top": 0.02737831138074398,
   "hit": false
  },
  {
@@ -788,7 +788,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -2.7750353813171387,
+  "top": -2.912808418273926,
   "hit": false
  },
  {
@@ -796,7 +796,7 @@
   "intent": "contraindications",
   "routed": false,
   "drug_found": true,
-  "top": 4.732069492340088,
+  "top": 4.732071399688721,
   "hit": true
  },
  {
@@ -804,7 +804,7 @@
   "intent": "interactions",
   "routed": false,
   "drug_found": true,
-  "top": 5.272358417510986,
+  "top": 6.12121057510376,
   "hit": true
  },
  {
@@ -812,7 +812,7 @@
   "intent": "dosage",
   "routed": false,
   "drug_found": true,
-  "top": 0.13077473640441895,
+  "top": 1.0212898254394531,
   "hit": true
  },
  {
@@ -828,7 +828,7 @@
   "intent": "indications",
   "routed": false,
   "drug_found": true,
-  "top": 1.8616406917572021,
+  "top": 1.861640214920044,
   "hit": true
  },
  {
@@ -836,7 +836,7 @@
   "intent": "overdose",
   "routed": false,
   "drug_found": true,
-  "top": 1.0012128353118896,
+  "top": 1.722683072090149,
   "hit": true
  },
  {
@@ -852,7 +852,7 @@
   "intent": "none",
   "routed": false,
   "drug_found": true,
-  "top": -1.1990077495574951,
+  "top": -0.7688929438591003,
   "hit": false
  },
  {
@@ -868,7 +868,7 @@
   "intent": "none",
   "routed": true,
   "drug_found": false,
-  "top": -0.4111912250518799,
+  "top": -0.41119149327278137,
   "hit": false
  },
  {
@@ -876,7 +876,7 @@
   "intent": "none",
   "routed": true,
   "drug_found": false,
-  "top": -4.842463970184326,
+  "top": -2.92626953125,
   "hit": false
  },
  {
@@ -884,7 +884,7 @@
   "intent": "none",
   "routed": true,
   "drug_found": false,
-  "top": -6.406282424926758,
+  "top": -2.8534979820251465,
   "hit": false
  },
  {
@@ -892,7 +892,7 @@
   "intent": "none",
   "routed": true,
   "drug_found": false,
-  "top": -4.266537666320801,
+  "top": -2.2453818321228027,
   "hit": false
  },
  {
@@ -900,7 +900,7 @@
   "intent": "none",
   "routed": true,
   "drug_found": false,
-  "top": 1.966001033782959,
+  "top": -0.031904347240924835,
   "hit": false
  },
  {
@@ -908,7 +908,7 @@
   "intent": "none",
   "routed": true,
   "drug_found": false,
-  "top": -1.6304881572723389,
+  "top": -1.1701468229293823,
   "hit": false
  },
  {
@@ -916,7 +916,7 @@
   "intent": "none",
   "routed": true,
   "drug_found": false,
-  "top": -3.9467101097106934,
+  "top": 0.26295483112335205,
   "hit": false
  },
  {
@@ -924,7 +924,7 @@
   "intent": "none",
   "routed": true,
   "drug_found": false,
-  "top": -3.61491322517395,
+  "top": -1.5270068645477295,
   "hit": false
  },
  {
@@ -932,7 +932,7 @@
   "intent": "none",
   "routed": true,
   "drug_found": false,
-  "top": 2.1384081840515137,
+  "top": 2.1698708534240723,
   "hit": false
  },
  {
@@ -940,7 +940,7 @@
   "intent": "none",
   "routed": true,
   "drug_found": false,
-  "top": -0.19862791895866394,
+  "top": -0.7375583648681641,
   "hit": false
  }
 ]

@@ -2,9 +2,9 @@
 
 ## 1. [answerable/contraindications] In which patients is clindamycin unsafe?
 - abstained: False (answered), uncited: False
-- cited sections: ['contraindications', 'warnings']
+- cited sections: ['contraindications', 'warnings', 'indications_and_usage']
 
-Clindamycin is unsafe for patients with a history of regional enteritis, ulcerative colitis, or antibiotic-associated colitis [1]. It is also unsafe for patients with nonbacterial infections and for use in meningitis [3].
+Clindamycin is unsafe for patients with a history of regional enteritis, ulcerative colitis, or antibiotic-associated colitis [1]. It is also unsafe for patients with pre-existing renal dysfunction or those taking concomitant nephrotoxic drugs [3]. Additionally, clindamycin should not be used in the treatment of meningitis due to its inability to adequately diffuse into the cerebrospinal fluid [4].
 
 ## 2. [answerable/contraindications] In which patients is latanoprost unsafe?
 - abstained: False (answered), uncited: False
@@ -13,28 +13,28 @@ Clindamycin is unsafe for patients with a history of regional enteritis, ulcerat
 Latanoprost is unsafe in patients with known hypersensitivity to latanoprost or any other ingredients in this product [1]. It is also unsafe in patients with a history of herpetic keratitis, where its use should be avoided in cases of active herpes simplex keratitis and should be used with caution in patients with a history of herpetic keratitis .
 
 ## 3. [answerable/contraindications] In which patients is ondansetron unsafe?
-- abstained: False (answered), uncited: False
-- cited sections: ['contraindications', 'contraindications']
+- abstained: True (model abstained), uncited: False
+- cited sections: []
 
-Ondansetron is unsafe for patients known to have hypersensitivity (e.g., anaphylaxis) to ondansetron or any of the components of the formulation [see Adverse Reactions (6.2) ] and for patients receiving concomitant apomorphine due to the risk of profound hypotension and loss of consciousness [see Contraindications (4)]. [1], [4]
+Ondansetron is unsafe in patients known to have hypersensitivity (e.g., anaphylaxis) to ondansetron or any of the components of the formulation [see Adverse Reactions (6.2)] and in patients receiving concomitant apomorphine due to the risk of profound hypotension and loss of consciousness [see Contraindications (4)]. NOT ENOUGH EVIDENCE for other patient groups.
 
 ## 4. [answerable/interactions] Can granisetron be used safely alongside other medicines?
 - abstained: False (answered), uncited: False
 - cited sections: ['drug_interactions', 'drug_interactions']
 
-Granisetron can be used safely with many other medicines, including benzodiazepines, neuroleptics, and anti-ulcer medications [2]. However, it should not be used with drugs known to prolong the QT interval or cause arrhythmias [3].
+Granisetron can be used safely alongside other medicines, specifically with drugs like benzodiazepines, neuroleptics, and anti-ulcer medications [1][3]. However, caution is advised for patients using drugs that prolong the QT interval or are arrhythmogenic [3].
 
 ## 5. [answerable/interactions] Can ertapenem be used safely alongside other medicines?
 - abstained: True (model abstained), uncited: False
-- cited sections: []
+- cited sections: ['drug_interactions', 'drug_interactions']
 
-ERTAPENEM should not be co-administered with PROBENECID due to increased plasma concentrations of ertapenem. For VALPROIC ACID, co-administration is not recommended as it may reduce valproic acid concentrations, potentially leading to breakthrough seizures. Therefore, the safety of ertapenem alongside other medicines is established for PROBENECID but not for VALPROIC ACID. NOT ENOUGH EVIDENCE for other medicines.
+[1] ERTAPENEM SODIUM | drug_interactions | Gland Pharma Limited provides information on drug interactions. Co-administration with probenecid is not recommended due to increased plasma concentrations of ertapenem. [1] For valproic acid, co-administration is generally not recommended as it may reduce valproic acid concentrations, increasing the risk of breakthrough seizures. [2] This excerpt does not cover interactions with all other medicines, hence NOT ENOUGH EVIDENCE.
 
 ## 6. [answerable/interactions] Can metformin be used safely alongside other medicines?
 - abstained: False (answered), uncited: False
 - cited sections: ['drug_interactions', 'drug_interactions']
 
-Metformin can be used safely with many medicines, as shown by studies where it did not affect metformin pharmacokinetics [1]. However, interactions with certain drugs like diuretics, corticosteroids, and phenothiazines may lead to loss of blood glucose control [2]. Always monitor patients closely for hypoglycemia in these cases. [1] [2]
+Metformin can be used safely with many other medicines, as shown in studies where it did not affect the pharmacokinetics of metformin when coadministered with cimetidine or ibuprofen. However, interactions with certain drugs like diuretics, corticosteroids, and phenothiazines may lead to loss of blood glucose control, requiring careful monitoring and dose adjustment. [1], [2]
 
 ## 7. [answerable/dosage] How is the daily amount of irbesartan usually decided?
 - abstained: False (answered), uncited: False
@@ -46,31 +46,31 @@ The recommended initial dose of irbesartan tablets is 150 mg once daily. [1] The
 - abstained: False (answered), uncited: False
 - cited sections: ['dosage_and_administration']
 
-The usual recommended dose range for terazosin hydrochloride is 1 mg to 5 mg administered once a day [1]. Higher doses up to 20 mg per day may be beneficial for some patients, but doses over 20 mg do not provide further blood pressure effects and doses over 40 mg have not been studied.
+The daily amount of terazosin is usually decided based on a recommended dose range of 1 mg to 5 mg administered once a day [1]. Higher doses up to 20 mg per day may be beneficial for some patients, but doses over 20 mg do not provide further benefits and doses over 40 mg have not been studied.
 
 ## 9. [answerable/dosage] How is the daily amount of venlafaxine usually decided?
 - abstained: False (answered), uncited: False
 - cited sections: ['dosage_and_administration']
 
-The daily amount of venlafaxine is usually decided based on the patient's response and tolerability, starting at 75 mg/day for most patients, with increments of up to 75 mg/day at intervals of no less than 4 days. [1]
+The daily amount of venlafaxine is usually decided based on the starting dose of 75 mg/day, which is administered in two or three divided doses, taken with food. The dose may be increased to 150 mg/day and further to 225 mg/day, with increments of up to 75 mg/day made at intervals of no less than 4 days. [1]
 
 ## 10. [answerable/side_effects] What unwanted effects might ertapenem cause?
 - abstained: False (answered), uncited: False
-- cited sections: ['adverse_reactions', 'adverse_reactions', 'adverse_reactions']
+- cited sections: ['adverse_reactions', 'adverse_reactions']
 
-ERTAPENEM SODIUM can cause various unwanted effects including diarrhea, infusion site pain, and erythema. Other reported effects include arthralgia, dizziness, insomnia, rash, and skin lesions. These effects are based on clinical trials and post-marketing experience. [1], [2], [3]
+ERTAPENEM SODIUM can cause various unwanted effects including diarrhea, infused vein complications, nausea, headache, vaginitis in females, arthralgia, dizziness, somnolence, insomnia, genital rash, rash, pruritus, skin lesion, and phlebitis. [1], [2]
 
 ## 11. [answerable/side_effects] What unwanted effects might irbesartan cause?
 - abstained: False (answered), uncited: False
-- cited sections: ['adverse_reactions', 'adverse_reactions']
+- cited sections: ['adverse_reactions']
 
-Irbesartan may cause unwanted effects such as dizziness, orthostatic dizziness, and orthostatic hypotension. Other reported adverse reactions include diarrhea, dyspepsia/heartburn, fatigue, and in some cases, increased liver function tests, jaundice, hepatitis, hyperkalemia, anemia, thrombocytopenia, increased CPK, tinnitus, and hypoglycemia in diabetic patients. [1], [2]
+Irbesartan could cause unwanted effects such as hives, swelling of the face, lips, throat, or tongue, severe allergic reactions, liver issues, high potassium levels, anemia, low blood cell count, increased CPK levels, ringing in the ears, and low blood sugar in diabetics. [1]
 
 ## 12. [answerable/side_effects] What unwanted effects might alprazolam cause?
 - abstained: False (answered), uncited: False
-- cited sections: ['adverse_reactions', 'adverse_reactions', 'adverse_reactions']
+- cited sections: ['adverse_reactions']
 
-Alprazolam may cause unwanted effects including seizures, hallucinations, depersonalization, taste alterations, diplopia, elevated bilirubin, elevated hepatic enzymes, and jaundice [3]. It can also lead to adverse behavioral effects such as agitation, rage, irritability, and aggressive or hostile behavior [1][2]. These effects can occur with other CNS drugs and in patients with underlying psychiatric conditions or a history of aggression.
+Alprazolam may cause unwanted effects like stimulation, increased muscle spasticity, sleep disturbances, hallucinations, agitation, rage, irritability, aggression, and hostility. These effects can occur in patients taking other CNS drugs or with underlying psychiatric conditions. Patients with borderline personality disorder, a history of violent behavior, or substance abuse may be at higher risk. Irritability, hostility, and intrusive thoughts can also happen during alprazolam discontinuation, especially in patients with posttraumatic stress disorder. [1]
 
 ## 13. [answerable/indications] Why would a doctor give a patient carvedilol?
 - abstained: False (answered), uncited: False
@@ -80,21 +80,21 @@ A doctor might give carvedilol to a patient with mild to severe chronic heart fa
 
 ## 14. [answerable/indications] Why would a doctor give a patient ondansetron?
 - abstained: False (answered), uncited: False
-- cited sections: ['indications_and_usage']
+- cited sections: ['indications_and_usage', 'indications_and_usage']
 
-A doctor would give a patient ondansetron for nausea and vomiting associated with highly emetogenic cancer chemotherapy, including cisplatin greater than or equal to 50 mg/m 2 [1], initial and repeat courses of moderately emetogenic cancer chemotherapy [1], radiotherapy in patients receiving total body irradiation, single high-dose fraction to the abdomen, or daily fractions to the abdomen [1], and postoperative nausea and/or vomiting [1].
+A doctor would give a patient ondansetron for nausea and vomiting associated with highly emetogenic cancer chemotherapy, including cisplatin greater than or equal to 50 mg/m2, initial and repeat courses of moderately emetogenic cancer chemotherapy, radiotherapy, or postoperative situations. [1] [2]
 
 ## 15. [answerable/indications] Why would a doctor give a patient terazosin?
 - abstained: False (answered), uncited: False
 - cited sections: ['indications_and_usage']
 
-A doctor might prescribe terazosin for both symptomatic benign prostatic hyperplasia (BPH) and hypertension. It can be used alone or in combination with other medications. [1]
+A doctor might prescribe terazosin for the treatment of symptomatic benign prostatic hyperplasia (BPH) to improve urinary flow and symptoms, or for hypertension to manage high blood pressure, alone or in combination with other medications. [1]
 
 ## 16. [answerable/overdose] What should be done if someone is poisoned by venlafaxine?
 - abstained: False (answered), uncited: False
 - cited sections: ['overdosage']
 
-[2]
+If someone is poisoned by venlafaxine, activated charcoal should be administered. No specific antidotes are known, so contacting a poison control center for advice is recommended. [2]
 
 ## 17. [answerable/overdose] What should be done if someone is poisoned by montelukast?
 - abstained: True (model abstained), uncited: False
@@ -104,9 +104,9 @@ NOT ENOUGH EVIDENCE
 
 ## 18. [answerable/overdose] What should be done if someone is poisoned by metformin?
 - abstained: False (answered), uncited: False
-- cited sections: ['dosage_and_administration', 'overdosage', 'dosage_and_administration', 'dosage_and_administration']
+- cited sections: ['overdosage']
 
-In case of metformin overdose, hemodialysis may be useful for removal of accumulated drug from patients in whom metformin overdosage is suspected [2]. Monitoring of renal function is necessary to aid in prevention of lactic acidosis, particularly in the elderly [1]. If someone is poisoned, appropriate precautions should be taken and metformin therapy should be initiated at 500 mg once daily in patients on insulin therapy, increasing the dose as needed [3]. For patients not responding adequately, the dose of metformin hydrochloride should be increased by 500 mg after approximately 1 week and by 500 mg every week thereafter until adequate glycemic control is achieved [3]. Clinical and pharmacokinetic drug-drug interaction data are currently available only for metformin plus glyburide (glibenclamide) with concomitant metformin hydrochloride and sulfonylurea therapy, and the desired control of blood glucose may be obtained by adjusting the dose of each drug [4].
+If someone is poisoned by metformin, contact the Poison Help line at 1-800-222-1222 or a medical toxicologist for additional overdosage management recommendations. [2]
 
 ## 19. [out_of_scope/none] What is the price of alprazolam at pharmacies in Hyderabad?
 - abstained: True (low retrieval score), uncited: False

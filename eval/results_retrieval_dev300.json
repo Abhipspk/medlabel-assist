@@ -1,0 +1,3781 @@
+{
+ "A hybrid only": [
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "warnings",
+    "dosage_and_administration",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "warnings",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "adverse_reactions",
+    "drug_interactions",
+    "drug_interactions",
+    "warnings"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "drug_interactions",
+    "drug_interactions",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "warnings",
+    "dosage_and_administration",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "dosage_and_administration",
+    "overdosage",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "drug_interactions",
+    "indications_and_usage",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "use_in_specific_populations",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "use_in_specific_populations",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "adverse_reactions",
+    "dosage_and_administration",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "contraindications",
+    "use_in_specific_populations",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.25,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "contraindications",
+    "adverse_reactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "dosage_and_administration",
+    "use_in_specific_populations",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "overdosage",
+    "adverse_reactions",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "use_in_specific_populations",
+    "indications_and_usage",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "overdosage",
+    "warnings",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.25,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "warnings",
+    "warnings",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "adverse_reactions",
+    "warnings",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 0.75,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.25,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "use_in_specific_populations",
+    "overdosage",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "use_in_specific_populations",
+    "overdosage",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "use_in_specific_populations",
+    "contraindications",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "use_in_specific_populations",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "boxed_warning",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "indications_and_usage",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "indications_and_usage",
+    "dosage_and_administration",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "use_in_specific_populations",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "indications_and_usage",
+    "overdosage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 0.75,
+   "sections": [
+    "warnings",
+    "overdosage",
+    "overdosage",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "overdosage",
+    "warnings",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "contraindications",
+    "drug_interactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "use_in_specific_populations",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "warnings",
+    "adverse_reactions",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "indications_and_usage",
+    "overdosage",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "contraindications",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "contraindications",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "warnings",
+    "indications_and_usage",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "use_in_specific_populations",
+    "use_in_specific_populations",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "use_in_specific_populations",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "adverse_reactions",
+    "warnings",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "indications_and_usage",
+    "contraindications",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.25,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "use_in_specific_populations",
+    "warnings",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "contraindications",
+    "use_in_specific_populations",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "drug_interactions",
+    "contraindications",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "use_in_specific_populations",
+    "drug_interactions",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "adverse_reactions",
+    "drug_interactions",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "use_in_specific_populations",
+    "use_in_specific_populations",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "contraindications",
+    "contraindications",
+    "warnings",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "drug_interactions",
+    "warnings",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "use_in_specific_populations",
+    "use_in_specific_populations",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "warnings",
+    "warnings",
+    "warnings",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "warnings",
+    "contraindications",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "drug_interactions",
+    "warnings",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "use_in_specific_populations",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "contraindications",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "warnings",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  }
+ ],
+ "B + rerank": [
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "warnings",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "warnings",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "use_in_specific_populations",
+    "use_in_specific_populations",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "dosage_and_administration",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "drug_interactions",
+    "indications_and_usage",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "warnings",
+    "adverse_reactions",
+    "boxed_warning"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "contraindications",
+    "dosage_and_administration",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "indications_and_usage",
+    "contraindications"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "use_in_specific_populations",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "adverse_reactions",
+    "dosage_and_administration",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "use_in_specific_populations",
+    "contraindications",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "drug_interactions",
+    "warnings",
+    "drug_interactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "use_in_specific_populations",
+    "adverse_reactions",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "use_in_specific_populations",
+    "use_in_specific_populations",
+    "contraindications"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "warnings",
+    "use_in_specific_populations",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "warnings",
+    "overdosage",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "warnings",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "warnings",
+    "warnings",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0,
+   "sections": [
+    "boxed_warning",
+    "warnings",
+    "contraindications",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.3333333333333333,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "overdosage",
+    "dosage_and_administration",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "overdosage",
+    "use_in_specific_populations",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "overdosage",
+    "drug_interactions",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "overdosage",
+    "overdosage",
+    "warnings"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "boxed_warning",
+    "warnings",
+    "indications_and_usage",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "warnings",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "warnings",
+    "use_in_specific_populations",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "adverse_reactions",
+    "warnings",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.25,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "overdosage",
+    "warnings",
+    "contraindications"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 0.75,
+   "sections": [
+    "contraindications",
+    "drug_interactions",
+    "drug_interactions",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "adverse_reactions",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "drug_interactions",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "warnings",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "warnings",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "use_in_specific_populations",
+    "indications_and_usage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "warnings",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "use_in_specific_populations",
+    "overdosage",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "use_in_specific_populations",
+    "overdosage",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "overdosage",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "contraindications",
+    "use_in_specific_populations",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "drug_interactions",
+    "drug_interactions",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "overdosage",
+    "adverse_reactions",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "indications_and_usage",
+    "use_in_specific_populations",
+    "use_in_specific_populations",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "use_in_specific_populations",
+    "adverse_reactions",
+    "warnings"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "use_in_specific_populations",
+    "indications_and_usage",
+    "use_in_specific_populations",
+    "use_in_specific_populations"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.25,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "warnings",
+    "warnings",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "use_in_specific_populations",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 0.5,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "drug_interactions",
+    "drug_interactions",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "adverse_reactions",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "overdosage",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "adverse_reactions",
+    "adverse_reactions",
+    "use_in_specific_populations"
+   ]
+  }
+ ],
+ "C + rerank + routing": [
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "boxed_warning",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "warnings",
+    "boxed_warning"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.75,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.5,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 0.25,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  }
+ ],
+ "D + routing + drug filter": [
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "boxed_warning",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "warnings",
+    "boxed_warning"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  },
+  {
+   "hit": false,
+   "rr": 0.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "warnings",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  }
+ ],
+ "E + per-section search": [
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "warnings",
+    "boxed_warning"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "warnings",
+    "boxed_warning"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "boxed_warning",
+    "warnings",
+    "boxed_warning"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "contraindications",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "contraindications",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage",
+    "overdosage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "contraindications",
+    "warnings",
+    "warnings",
+    "warnings"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "drug_interactions",
+    "drug_interactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "dosage_and_administration",
+    "dosage_and_administration",
+    "dosage_and_administration"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "adverse_reactions",
+    "adverse_reactions",
+    "adverse_reactions"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "indications_and_usage",
+    "indications_and_usage",
+    "indications_and_usage"
+   ]
+  },
+  {
+   "hit": true,
+   "rr": 1.0,
+   "drug_prec": 1.0,
+   "sections": [
+    "overdosage"
+   ]
+  }
+ ]
+}
