@@ -9,6 +9,8 @@ from retrieval import Retriever
 from routing import route_sections
 from verify import SYSTEM_V3, generate_verified
 from expand import expand_query
+from guardrails import INJECTION_MSG, looks_like_injection, redact_pii, drop_injected
+start = time.time()
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
 LLM = os.environ.get("MEDLABEL_LLM", "qwen2.5:3b")
@@ -131,6 +133,9 @@ def _refusal(answer, reason, top, routed, start):
 
 def answer_question(retriever, question, sections=None, route=True):
     start = time.time()
+    question, _pii = redact_pii(question)               # mask personal data first
+    if looks_like_injection(question):                  # gate 0: direct prompt injection
+        return _refusal(INJECTION_MSG, "blocked: prompt injection", None, None, start)
     drug = retriever.detect_drug(question)
     if drug is None:                                   # gate 1: no recognized drug
         return _refusal(NO_DRUG, "no recognized drug", None, None, start)
@@ -140,6 +145,9 @@ def answer_question(retriever, question, sections=None, route=True):
         return _refusal(NO_EVIDENCE, "low retrieval score", top, routed, start)
 
     evidence = select_evidence(hits, routed)
+    evidence = drop_injected(evidence)                  # indirect injection
+    if not evidence:
+        return _refusal(NO_EVIDENCE, "evidence removed by guardrail", top, routed, start)
     text = generate_verified(question, evidence, call_llm, build_context)
     cited = sorted({int(n) for n in re.findall(r"\[(\d+)\]", text)
                     if 1 <= int(n) <= len(evidence)})
