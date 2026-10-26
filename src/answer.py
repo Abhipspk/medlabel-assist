@@ -7,6 +7,7 @@ import requests
 
 from retrieval import Retriever
 from routing import route_sections
+from verify import SYSTEM_V3, generate_verified
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
 LLM = os.environ.get("MEDLABEL_LLM", "qwen2.5:3b")
@@ -36,7 +37,8 @@ SYSTEM_V2 = (
     f"Reply exactly {NO_EVIDENCE} only when none of the excerpts is relevant to the question. "
     "Keep the answer under 150 words."
 )
-SYSTEM = SYSTEM_V1 if os.environ.get("MEDLABEL_PROMPT") == "v1" else SYSTEM_V2
+_p = os.environ.get("MEDLABEL_PROMPT")
+SYSTEM = SYSTEM_V1 if _p == "v1" else SYSTEM_V2 if _p == "v2" else SYSTEM_V3
 
 
 def dedupe(hits, limit=4):
@@ -136,7 +138,7 @@ def answer_question(retriever, question, sections=None, route=True):
         return _refusal(NO_EVIDENCE, "low retrieval score", top, routed, start)
 
     evidence = select_evidence(hits, routed)
-    text = call_llm(question, build_context(evidence))
+    text = generate_verified(question, evidence, call_llm, build_context)
     cited = sorted({int(n) for n in re.findall(r"\[(\d+)\]", text)
                     if 1 <= int(n) <= len(evidence)})
     abstained = NO_EVIDENCE in text

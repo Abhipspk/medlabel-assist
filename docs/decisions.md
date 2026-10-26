@@ -41,3 +41,6 @@
 41. Partial-answer prompt (v2) compared with v1 on the same 34 questions under the fixed checker.
 42. Prompt v2 vs v1 (3B, fixed checker, 34 questions): answered 0.78 to 0.94; out-of-scope 12/12 and invented 4/4 still refused; no wrong-drug citations. v2 made default. One numeric-faithfulness flag (ondansetron unsafe) under review. Right-section rate is not comparable across prompts because v2 answers more, harder questions.
 43. Persistent section_ok=False with high word overlap (latanoprost, irbesartan, ondansetron) suggests the section check is too strict. To be verified by reading answers.
+44. Out-of-scope refusals under v2 all came from the retrieval score gate, so they do not test the prompt. Prompt looseness is validated only on questions that pass the gate.
+45. Manual review of 34 v2 answers: one inverted-meaning answer (ondansetron, pediatric), citation drift to label section numbers, prompt-instruction leakage (montelukast), wrong-section evidence (irbesartan side effects, ondansetron indications). Overlap metric cannot detect negation errors.
+46. Decision: citation verification becomes a hard gate; an answer with no valid [n] is retried once, then replaced with a refusal. Section check kept (too strict only for latanoprost, which has no contraindications text).
