@@ -8,6 +8,7 @@ import requests
 from retrieval import Retriever
 from routing import route_sections
 from verify import SYSTEM_V3, generate_verified
+from expand import expand_query
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
 LLM = os.environ.get("MEDLABEL_LLM", "qwen2.5:3b")
@@ -108,11 +109,12 @@ def call_llm(question, context):
 
 def gather(retriever, question, drug, sections=None, route=True):
     """The single retrieval path used by the app and the evaluations."""
-    routed = sections or (route_sections(question) if route else None)
+    q = expand_query(question)
+    routed = sections or (route_sections(q) if route else None)
     if routed:
-        hits = retriever.search_by_section(question, routed, drug=drug)
+        hits = retriever.search_by_section(q, routed, drug=drug)
     else:
-        hits = retriever.search_diverse(question, drug=drug)
+        hits = retriever.search_diverse(q, drug=drug)
     top = max((h["score"] for h in hits), default=None)
     if routed and (top is None or top < ABSTAIN_BELOW):
         hits = retriever.search_diverse(question, drug=drug)   # router missed: go route-free
