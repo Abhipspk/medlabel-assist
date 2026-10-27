@@ -53,6 +53,7 @@ class Citation(BaseModel):
     section: str
     manufacturer: str
     chunk_id: str
+    snippet: str = ""
 
 
 class AskResponse(BaseModel):
@@ -111,7 +112,8 @@ async def ask(req: AskRequest, user=Depends(require_role("analyst", "admin"))):
     for n in out["cited"]:
         h = out["evidence"][n - 1]
         citations.append(Citation(n=n, drug=h["generic_name"], section=h["section"],
-                                  manufacturer=h["manufacturer"], chunk_id=h["chunk_id"]))
+                                  manufacturer=h["manufacturer"], chunk_id=h["chunk_id"],
+                                  snippet=h.get("text", "")[:700]))
     log_event(AUDIT_PATH, {
         "event": "ask", "request_id": request_id, "user": user["user"], "role": user["role"],
         "question": safe_q, "pii_redacted": pii, "decision": out["reason"],
